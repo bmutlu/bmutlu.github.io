@@ -7,23 +7,31 @@ author_profile: true
 
 ## Recognitions
 
+### 2022
+
+**Vilas Associates Award**  
+University of Wisconsin–Madison
+
 ### 2021
 
 **H.I. Romnes Faculty Fellowship**  
-University of Wisconsin–Madison\
+University of Wisconsin–Madison
 
 **Sheldon B. and Marianne S. Lubar Professorship**  
-Department of Computer Sciences, University of Wisconsin–Madison\
+Department of Computer Sciences, University of Wisconsin–Madison
+
+**Leadership Award**  
+Frontiers in Robotics and AI
 
 ### 2020
 
 **Provost’s Early Career Award**  
-University of Wisconsin–Madison\
+University of Wisconsin–Madison
 
 ### 2013
 
 **Allen Newell Award for Research Excellence**  
-Carnegie Mellon University\
+Carnegie Mellon University  
 With Jodi Forlizzi, Sara Kiesler, Carl DiSalvo, Min Kyung Lee, and Cristen Torrey for the “Elucidation of the fundamental principles of human-robot interaction and its associated methods.”
 
 ### 2012
