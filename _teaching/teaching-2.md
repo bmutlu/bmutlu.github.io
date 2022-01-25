@@ -5,7 +5,7 @@ type: "Graduate Course"
 permalink: /teaching/teaching-2
 venue: "Department of Computer Sciences, University of Wisconsin-Madison"
 location: "Madison, WI"
-date: Fall 2021
+date: 2021-9-01
 excerpt: "<img width='400px' src='/images/hci-01-400x284.png'>"
 author_profile: false
 ---
