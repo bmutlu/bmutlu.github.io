@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Bilge Mutlu"
   avatar           : "Mutlu_Bilge_hs21_1829-square.jpg"
-  bio              : "Sheldon B. and Marianne S. Lubar Professor of Computer Science, University of Wisconsin–Madison"
+  bio              : "Sheldon B. and Marianne S. Lubar Professor of Computer Science"
   location         : "Madison, WI, USA"
-  employer         :
+  employer         : "University of Wisconsin–Madison"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=VGr54BoAAAAJ&hl=en"
-  email            :
+  email            : 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -197,53 +197,53 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
       layout: single
-      author_profile: true
-      share: true
-      comments: true
+      author_profile: false
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
       type: publications
     values:
       layout: single
-      author_profile: true
-      share: true
-      comments: true
+      author_profile: false
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""
       type: portfolio
     values:
       layout: single
-      author_profile: true
-      share: true
-      comment: true
+      author_profile: false
+      share: false
+      comment: false
   # _talks
   - scope:
       path: ""
       type: talks
     values:
       layout: talk
-      author_profile: true
-      share: true
+      author_profile: false
+      share: false
 
 # Sass/SCSS
 sass:
