@@ -10,7 +10,7 @@ excerpt: "<img width='400px' src='/images/ux-01-400x284.png'>"
 author_profile: false
 ---
 
-![](ux-01-980x650.png)
+![](/images/ux-01-980x650.png)
 
 Building User Interfaces introduces CS undergraduates to the wonderful world of **User Experience (UX) development** and covers the (1) programming skills you will need to prototype and build user-facing applications and (2) design skills you will need to understand user needs, devise solutions, and test how well they work. Students learn both _design_ skills and _programming_ skills and, across three modules, focus on _web_, _mobile_, and _voice_ interfaces. Each module uses the programming framework that is most commonly used in the software development industry.
 
