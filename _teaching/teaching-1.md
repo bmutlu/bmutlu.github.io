@@ -6,6 +6,8 @@ permalink: /teaching/teaching-1
 venue: "Department of Computer Sciences, University of Wisconsin-Madison"
 location: "Madison, WI"
 date: Fall 2020
+excerpt: "<img width='400px' src='/images/ux-01-400x284.png'>"
+author_profile: false
 ---
 
 ![](ux-01-980x650.png)
