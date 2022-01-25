@@ -3,6 +3,7 @@ title: "CS-571 Building User Interfaces"
 collection: teaching
 excerpt: "<img width='400px' src='/images/ux-01-400x284.png'>"
 author_profile: false
+date: 2020-09-01
 ---
 
 <img width='600px' src='/images/ux-01-980x650.png'>
