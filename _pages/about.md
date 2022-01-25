@@ -23,6 +23,7 @@ My research in [human-robot interaction (HRI)](https://en.wikipedia.org/wiki/Hum
 <style>
 table, td, th, tr {
    border: none;
+   margin-left: 0px;
 }
 thead {
    background-color: rgba(0, 0, 0, 0.0);
@@ -30,6 +31,9 @@ thead {
 }
 tr.border-bottom {
    border-bottom: 0px;
+}
+a {
+  color: FF7E79;
 }
 </style>
 
