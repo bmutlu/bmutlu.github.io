@@ -2,8 +2,12 @@
 title: "CS-571 Building User Interfaces"
 collection: teaching
 excerpt: "<img width='400px' src='/images/ux-01-400x284.png'>"
+type: "Graduate Course"
+permalink: /teaching/teaching-2
+venue: "Department of Computer Sciences, University of Wisconsin-Madison"
+location: "Madison, WI"
+date: 2020-9-01
 author_profile: false
-date: 2020-09-01
 ---
 
 <img width='600px' src='/images/ux-01-980x650.png'>
