@@ -1,0 +1,1777 @@
+@inproceedings{mutlu2009footing,
+  title={Footing in human-robot conversations: how robots might shape participant roles using gaze cues},
+  author={Mutlu, Bilge and Shiwa, Toshiyuki and Kanda, Takayuki and Ishiguro, Hiroshi and Hagita, Norihiro},
+  booktitle={Proceedings of the 4th ACM/IEEE international conference on Human robot interaction},
+  pages={61--68},
+  year={2009},
+  organization={ACM}
+}
+
+@inproceedings{mutlu2006storytelling,
+  title={A storytelling robot: Modeling and evaluation of human-like gaze behavior},
+  author={Mutlu, Bilge and Forlizzi, Jodi and Hodgins, Jessica},
+  booktitle={Humanoid Robots, 2006 6th IEEE-RAS International Conference on},
+  pages={518--523},
+  year={2006},
+  organization={IEEE}
+}
+
+@inproceedings{mutlu2006task,
+  title={Task structure and user attributes as elements of human-robot interaction design},
+  author={Mutlu, Bilge and Osman, Steven and Forlizzi, Jodi and Hodgins, Jessica and Kiesler, Sara},
+  booktitle={ROMAN 2006-The 15th IEEE International Symposium on Robot and Human Interactive Communication},
+  pages={74--79},
+  year={2006},
+  organization={IEEE}
+}
+
+@inproceedings{mutlu2008robots,
+  title={Robots in organizations: the role of workflow, social, and environmental factors in human-robot interaction},
+  author={Mutlu, Bilge and Forlizzi, Jodi},
+  booktitle={Proceedings of the 3rd ACM/IEEE international conference on Human robot interaction},
+  pages={287--294},
+  year={2008},
+  organization={ACM}
+}
+
+@inproceedings{mutlu2009nonverbal,
+  title={Nonverbal leakage in robots: communication of intentions through seemingly unintentional behavior},
+  author={Mutlu, Bilge and Yamaoka, Fumitaka and Kanda, Takayuki and Ishiguro, Hiroshi and Hagita, Norihiro},
+  booktitle={Proceedings of the 4th ACM/IEEE international conference on Human robot interaction},
+  pages={69--76},
+  year={2009},
+  organization={ACM}
+}
+
+@inproceedings{mutlu2006perceptions,
+  title={Perceptions of ASIMO: an exploration on co-operation and competition with humans and humanoid robots},
+  author={Mutlu, Bilge and Osman, Steven and Forlizzi, Jodi and Hodgins, Jessica and Kiesler, Sara},
+  booktitle={Proceedings of the 1st ACM SIGCHI/SIGART conference on Human-robot interaction},
+  pages={351--352},
+  year={2006},
+  organization={ACM}
+}
+
+@inproceedings{keyani2005dancealong,
+  title={DanceAlong: supporting positive social exchange and exercise for the elderly through dance},
+  author={Keyani, Pedram and Hsieh, Gary and Mutlu, Bilge and Easterday, Matthew and Forlizzi, Jodi},
+  booktitle={CHI'05 extended abstracts on Human factors in computing systems},
+  pages={1541--1544},
+  year={2005}
+}
+
+@inproceedings{mutlu2007robust,
+  title={Robust, low-cost, non-intrusive sensing and recognition of seated postures},
+  author={Mutlu, Bilge and Krause, Andreas and Forlizzi, Jodi and Guestrin, Carlos and Hodgins, Jessica},
+  booktitle={Proceedings of the 20th annual ACM symposium on User interface software and technology},
+  pages={149--158},
+  year={2007}
+}
+
+@inproceedings{forlizzi2005sensechair,
+  title={The SenseChair: The lounge chair as an intelligent assistive device for elders},
+  author={Forlizzi, Jodi and DiSalvo, Carl and Zimmerman, John and Mutlu, Bilge and Hurst, Amy},
+  booktitle={Proceedings of the 2005 conference on Designing for User eXperience},
+  pages={31},
+  year={2005},
+  organization={AIGA: American Institute of Graphic Arts}
+}
+
+@inproceedings{mutlu2006use,
+  title={The use of abstraction and motion in the design of social interfaces},
+  author={Mutlu, Bilge and Forlizzi, Jodi and Nourbakhsh, Illah and Hodgins, Jessica},
+  booktitle={Proceedings of the 6th conference on Designing Interactive systems},
+  pages={251--260},
+  year={2006}
+}
+
+@inproceedings{mutlu2003design,
+  title={Design innovation: historical and theoretical perspectives on product innovation by design},
+  author={Mutlu, Bilge and Er, Alpay},
+  booktitle={5th European Academy of Design Conference},
+  year={2003}
+}
+
+@inproceedings{mumm2011human,
+  title={Human-robot proxemics: physical and psychological distancing in human-robot interaction},
+  author={Mumm, Jonathan and Mutlu, Bilge},
+  booktitle={Proceedings of the 6th international conference on Human-robot interaction},
+  pages={331--338},
+  year={2011},
+  organization={ACM}
+}
+
+@inproceedings{mutlu2006empirical,
+  title={An empirical framework for designing social products},
+  author={Mutlu, Bilge},
+  booktitle={Proceedings of the 6th conference on Designing Interactive systems},
+  pages={341--342},
+  year={2006}
+}
+
+@phdthesis{mutlu2009designing,
+  title={Designing Gaze Behavior for Humanlike Robots},
+  author={Mutlu, Bilge},
+  year={2009},
+  school={Carnegie Mellon University}
+}
+
+@incollection{mutlu2008design,
+  title={The design of gaze behavior for embodied social interfaces},
+  author={Mutlu, Bilge},
+  booktitle={CHI'08 extended abstracts on human factors in computing systems},
+  pages={2661--2664},
+  year={2008}
+}
+
+@article{mumm2011designing,
+  title={Designing motivational agents: The role of praise, social comparison, and embodiment in computer feedback},
+  author={Mumm, Jonathan and Mutlu, Bilge},
+  journal={Computers in Human Behavior},
+  volume={5},
+  number={27},
+  pages={1643--1650},
+  year={2011},
+  publisher={Elsevier}
+}
+
+@inproceedings{khan2011humans,
+  title={How Do Humans Teach: On Curriculum Learning and Teaching Dimension},
+  author={Khan, Faisal and Zhu, Xiaojin and Mutlu, Bilge},
+  booktitle={NIPS},
+  year={2011}
+}
+
+@article{mutlu2004chaotic,
+  title={The Chaotic Nature of Human Experience},
+  author={Mutlu, Bilge and Forlizzi, Jodi},
+  journal={Proceedings of Design and Emotion04},
+  year={2004}
+}
+
+@inproceedings{mutlu2010hri,
+  title={HRI 2010 late-breaking reports chairs' welcome},
+  author={Mutlu, Bilge and Thomaz, Andrea L},
+  booktitle={2010 5th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={69--69},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{azevedo2011reports,
+  title={Reports of the AAAI 2010 fall symposia},
+  author={Azevedo, Roger and Biswas, Gautam and Bohus, Dan and Carmichael, Ted and Finlayson, Mark and Hadzikadic, Mirsad and Havasi, Catherine and Horvitz, Eric and Kanda, Takayuki and Koyejo, Oluwasanmi and others},
+  journal={AI Magazine},
+  volume={32},
+  number={1},
+  pages={93--93},
+  year={2011}
+}
+
+@article{tsuiaaai,
+  title={This AAAI Symposium was held March 23--25, 2009 at Stanford University, Stanford, California USA},
+  author={Tsui, Katherine and Feil-Seifer, David and Maldonado, Heidy and Mutlu, Bilge and Stubbs, Kristen and Takayama, Leila}
+}
+
+@inproceedings{khan2010modeling,
+  title={Modeling social cues: Effective features for predicting listener nods},
+  author={Khan, Faisal and Mutlu, Bilge and Zhu, Xiaojin},
+  booktitle={Workshop on Modeling Human Communication Dynamics at NIPS},
+  pages={30},
+  year={2010}
+}
+
+@inproceedings{bohus2010preface,
+  title={Preface: Dialog with Robots},
+  author={Bohus, Dan and Horvitz, Eric and Kanda, Takayuki and Mutlu, Bilge and Raux, Antoine},
+  booktitle={2010 AAAI Fall Symposium Series},
+  year={2010}
+}
+
+@misc{mutlu2011social,
+  title={Social robotics: Third international conference on social robotics, ICSR 2011, amsterdam, the netherlands, november 24-25, 2011. proceedings},
+  author={Mutlu, Bilge and Bartneck, Christoph and Ham, Jaap and Evers, Vanessa and Kanda, Takayuki},
+  year={2011},
+  publisher={Springer Science \& Business Media}
+}
+
+@article{mutlu2011designing,
+  title={Designing embodied cues for dialog with robots},
+  author={Mutlu, Bilge},
+  journal={AI Magazine},
+  volume={32},
+  number={4},
+  pages={17--30},
+  year={2011}
+}
+
+@article{bohus2011introduction,
+  title={Introduction to the special issue on dialog with robots},
+  author={Bohus, Dan and Horvitz, Eric and Kanda, Takayuki and Mutlu, Bilge and Raux, Antoine},
+  journal={AI Magazine},
+  volume={32},
+  number={4},
+  pages={15--16},
+  year={2011}
+}
+
+@article{mutlu2012conversational,
+  title={Conversational gaze mechanisms for humanlike robots},
+  author={Mutlu, Bilge and Kanda, Takayuki and Forlizzi, Jodi and Hodgins, Jessica and Ishiguro, Hiroshi},
+  journal={ACM Transactions on Interactive Intelligent Systems (TiiS)},
+  volume={1},
+  number={2},
+  pages={1--33},
+  year={2012},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{duff2012beyond,
+  title={Beyond utterances: Distributed cognition as a framework for studying discourse in adults with acquired brain injury},
+  author={Duff, Melissa C and Mutlu, Bilge and Byom, Lindsey and Turkstra, Lyn S},
+  booktitle={Seminars in speech and language},
+  volume={33},
+  number={01},
+  pages={44--54},
+  year={2012},
+  organization={Thieme Medical Publishers}
+}
+
+@inproceedings{andrist2012designing,
+  title={Designing effective gaze mechanisms for virtual agents},
+  author={Andrist, Sean and Pejsa, Tomislav and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={Proceedings of the SIGCHI conference on Human factors in computing systems},
+  pages={705--714},
+  year={2012}
+}
+
+@inproceedings{huang2012robot,
+  title={Robot behavior toolkit: generating effective social behaviors for robots},
+  author={Huang, Chien-Ming and Mutlu, Bilge},
+  booktitle={2012 7th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={25--32},
+  year={2012},
+  organization={IEEE}
+}
+
+@inproceedings{chidambaram2012designing,
+  title={Designing persuasive robots: how robots might persuade people using vocal and nonverbal cues},
+  author={Chidambaram, Vijay and Chiang, Yueh-Hsuan and Mutlu, Bilge},
+  booktitle={Proceedings of the seventh annual ACM/IEEE international conference on Human-Robot Interaction},
+  pages={293--300},
+  year={2012}
+}
+
+@inproceedings{tscheligi2012exploring,
+  title={Exploring collaboration in challenging environments: from the car to the factory and beyond},
+  author={Tscheligi, Manfred and Meschtscherjakov, Alexander and Weiss, Astrid and Wulf, Volker and Evers, Vanessa and Mutlu, Bilge},
+  booktitle={Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work Companion},
+  pages={15--16},
+  year={2012}
+}
+
+@inproceedings{broz2012gaze,
+  title={Gaze in HRI: from modeling to communication},
+  author={Broz, Frank and Lehmann, Hagen and Nakano, Yukiko and Mutlu, Bilge},
+  booktitle={Proceedings of the seventh annual ACM/IEEE international conference on Human-Robot Interaction},
+  pages={491--492},
+  year={2012}
+}
+
+@inproceedings{szafir2012pay,
+  title={Pay attention! Designing adaptive agents that monitor and improve user engagement},
+  author={Szafir, Daniel and Mutlu, Bilge},
+  booktitle={Proceedings of the SIGCHI conference on human factors in computing systems},
+  pages={11--20},
+  year={2012}
+}
+
+@inproceedings{terrell2012regression,
+  title={A Regression-based Approach to Modeling Addressee Backchannels},
+  author={Terrell, Allison and Mutlu, Bilge},
+  booktitle={SigDial},
+  year={2012}
+}
+
+@article{de2012cheating,
+  title={Is cheating a human function? The roles of presence, state hostility, and enjoyment in an unfair video game},
+  author={De Simone, JJ and Verbruggen, Tessa and Kuo, Li-Hsiang and Mutlu, Bilge},
+  journal={Computers in Human Behavior},
+  volume={28},
+  number={6},
+  pages={2351--2358},
+  year={2012},
+  publisher={Pergamon}
+}
+
+@article{mutlu2004chaotic,
+  title={The chaotic nature of human experience: Insights on the subject matter of design towards establishing a science of design},
+  author={Mutlu, Bilge D and Forlizzi, Jodi},
+  year={2004}
+}
+
+@inproceedings{andrist2012head,
+  title={A head-eye coordination model for animating gaze shifts of virtual characters},
+  author={Andrist, Sean and Pejsa, Tomislav and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={Proceedings of the 4th Workshop on Eye Gaze in Intelligent Human Machine Interaction},
+  pages={1--6},
+  year={2012}
+}
+
+@inproceedings{pejsa2013stylized,
+  title={Stylized and performative gaze for character animation},
+  author={Pejsa, Tomislav and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={Computer Graphics Forum},
+  volume={32},
+  number={2pt2},
+  pages={143--152},
+  year={2013},
+  organization={Blackwell Publishing Ltd Oxford, UK}
+}
+
+@inproceedings{andrist2013rhetorical,
+  title={Rhetorical robots: making robots more effective speakers using linguistic cues of expertise},
+  author={Andrist, Sean and Spannan, Erin and Mutlu, Bilge},
+  booktitle={2013 8th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={341--348},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{mutlu2013coordination,
+  title={Coordination Mechanisms in Human-Robot Collaboration},
+  author={Mutlu, Bilge and Terrell, Allison and Huang, Chien-Ming},
+  booktitle={HRI 2013 Workshop on Collaborative Manipulation},
+  year={2013}
+}
+
+@inproceedings{broz2013hri,
+  title={HRI Face-to-Face: Gaze and speech communication (fifth workshop on eye-gaze in intelligent human-machine interaction)},
+  author={Broz, Frank and Lehmann, Hagen and Nakano, Yukiko and Mutlu, Bilge},
+  booktitle={2013 8th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={431--432},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{szafir2013artful,
+  title={ARTFul: adaptive review technology for flipped learning},
+  author={Szafir, Daniel and Mutlu, Bilge},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={1001--1010},
+  year={2013}
+}
+
+@inproceedings{huang2013modeling,
+  title={Modeling and Evaluating Narrative Gestures for Humanlike Robots.},
+  author={Huang, Chien-Ming and Mutlu, Bilge},
+  booktitle={Robotics: Science and Systems},
+  pages={57--64},
+  year={2013}
+}
+
+@inproceedings{hoque2013mach,
+  title={Mach: My automated conversation coach},
+  author={Hoque, Mohammed and Courgeon, Matthieu and Martin, Jean-Claude and Mutlu, Bilge and Picard, Rosalind W},
+  booktitle={Proceedings of the 2013 ACM international joint conference on Pervasive and ubiquitous computing},
+  pages={697--706},
+  year={2013}
+}
+
+@article{huang2013repertoire,
+  title={The repertoire of robot behavior: Enabling robots to achieve interaction goals through social behavior},
+  author={Huang, Chien-Ming and Mutlu, Bilge},
+  journal={Journal of Human-Robot Interaction},
+  volume={2},
+  number={2},
+  pages={80--102},
+  year={2013},
+  publisher={Journal of Human-Robot Interaction Steering Committee}
+}
+
+@article{byom2013theory,
+  title={Theory of mind: Mechanisms, methods, and new directions},
+  author={Byom, Lindsey Jacquelyn and Mutlu, Bilge},
+  journal={Frontiers in human neuroscience},
+  volume={7},
+  pages={413},
+  year={2013},
+  publisher={Frontiers}
+}
+
+@inproceedings{andrist2013conversational,
+  title={Conversational gaze aversion for virtual agents},
+  author={Andrist, Sean and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={International Workshop on Intelligent Virtual Agents},
+  pages={249--262},
+  year={2013},
+  organization={Springer, Berlin, Heidelberg}
+}
+
+@misc{mutlu2015teaching,
+  title={Teaching system for improving information retention based on brain-state monitoring},
+  author={Mutlu, Bilge and Szafir, Daniel J},
+  year={2015},
+  month=dec # "~29",
+  note={US Patent 9,224,309}
+}
+
+@inproceedings{miller2013artifact,
+  title={Artifact usage, context, and privacy management in logging and tracking personal health information in older adults},
+  author={Miller, Shadeequa and Mutlu, Bilge and Lee, John},
+  booktitle={Proceedings of the human factors and ergonomics society annual meeting},
+  volume={57},
+  number={1},
+  pages={1027--1031},
+  year={2013},
+  organization={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+@article{broz2013introduction,
+  title={Introduction to the special issue on gaze in human-robot communication},
+  author={Broz, Frank and Lehmann, Hagen and Mutlu, Bilge and Nakano, Yukiko and Hatfield, UK},
+  journal={Interaction Studies},
+  volume={14},
+  number={3},
+  pages={vii--xv},
+  year={2013},
+  publisher={John Benjamins}
+}
+
+@inproceedings{szafir2014communication,
+  title={Communication of intent in assistive free flyers},
+  author={Szafir, Daniel and Mutlu, Bilge and Fong, Terrence},
+  booktitle={Proceedings of the 2014 ACM/IEEE international conference on Human-robot interaction},
+  pages={358--365},
+  year={2014}
+}
+
+@inproceedings{andrist2014conversational,
+  title={Conversational gaze aversion for humanlike robots},
+  author={Andrist, Sean and Tan, Xiang Zhi and Gleicher, Michael and Mutlu, Bilge},
+  booktitle={2014 9th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={25--32},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{sauppe2014robot,
+  title={Robot deictics: How gesture and context shape referential communication},
+  author={Saupp{\'e}, Allison and Mutlu, Bilge},
+  booktitle={2014 9th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={342--349},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{sauppe2014social,
+  title={How social cues shape task coordination and communication},
+  author={Saupp{\'e}, Allison and Mutlu, Bilge},
+  booktitle={Proceedings of the 17th ACM conference on Computer supported cooperative work \& social computing},
+  pages={97--108},
+  year={2014}
+}
+
+@inproceedings{huang2014learning,
+  title={Learning-based modeling of multimodal behaviors for humanlike robots},
+  author={Huang, Chien-Ming and Mutlu, Bilge},
+  booktitle={2014 9th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={57--64},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{sauppe2014design,
+  title={Design patterns for exploring and prototyping human-robot interactions},
+  author={Saupp{\'e}, Allison and Mutlu, Bilge},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={1439--1448},
+  year={2014}
+}
+
+@inproceedings{rehm2014culture,
+  title={Culture-aware robotics (CARs)},
+  author={Rehm, Matthias and Mataric, Maja J and Mutlu, Bilge and Nomura, Tatsuya},
+  booktitle={Proceedings of the 2014 ACM/IEEE international conference on Human-robot interaction},
+  pages={508--508},
+  year={2014}
+}
+
+@inproceedings{ruhland2014look,
+  title={Look me in the eyes: A survey of eye and gaze animation for virtual agents and artificial systems},
+  author={Ruhland, Kerstin and Andrist, Sean and Badler, Jeremy and Peters, Christopher and Badler, Norman and Gleicher, Michael and Mutlu, Bilge and Mcdonnell, Rachel},
+  booktitle={Eurographics 2014-State of the Art Reports},
+  pages={69--91},
+  year={2014}
+}
+
+@article{kim2014social,
+  title={How social distance shapes human--robot interaction},
+  author={Kim, Yunkyung and Mutlu, Bilge},
+  journal={International Journal of Human-Computer Studies},
+  volume={72},
+  number={12},
+  pages={783--795},
+  year={2014},
+  publisher={Academic Press}
+}
+
+@inproceedings{sauppe2014effective,
+  title={Effective Task Training Strategies for Instructional Robots.},
+  author={Saupp{\'e}, Allison and Mutlu, Bilge},
+  booktitle={Robotics: Science and Systems},
+  year={2014}
+}
+
+@article{huang2014multivariate,
+  title={Multivariate evaluation of interactive robot systems},
+  author={Huang, Chien-Ming and Mutlu, Bilge},
+  journal={Autonomous Robots},
+  volume={37},
+  number={4},
+  pages={335--349},
+  year={2014},
+  publisher={Springer US}
+}
+
+@article{pejsa2015gaze,
+  title={Gaze and attention management for embodied conversational agents},
+  author={Pejsa, Tomislav and Andrist, Sean and Gleicher, Michael and Mutlu, Bilge},
+  journal={ACM Transactions on Interactive Intelligent Systems (TiiS)},
+  volume={5},
+  number={1},
+  pages={1--34},
+  year={2015},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{mutlu2014human,
+  title={Human-Centered Principles and Methods for Designing Robotic Technologies},
+  author={Mutlu, Bilge},
+  year={2014}
+}
+
+@phdthesis{mutlu2003new,
+  title={New User-centered methods for design innovation: a study on the role of emerging methods in innovative product design and development},
+  author={Mutlu, Bilge Din{\c{c}}er},
+  year={2003}
+}
+
+@inproceedings{johnson2015handheld,
+  title={Handheld or handsfree? Remote collaboration via lightweight head-mounted displays and handheld devices},
+  author={Johnson, Steven and Gibson, Madeleine and Mutlu, Bilge},
+  booktitle={Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work \& Social Computing},
+  pages={1825--1836},
+  year={2015}
+}
+
+@inproceedings{forlizzi2004study,
+  title={A Study of How Products Contribute to the Emotional Aspects of Human Experience},
+  author={Forlizzi, Jodi and Mutlu, Bilge and DiSalvo, Carl},
+  booktitle={Design \& Emotion},
+  year={2004}
+}
+
+@inproceedings{mutu2004chaotic,
+  title={The Chaotic Nature of Human Experience: An Alternative Approach to Determinacy in Understanding Emotions and Experience},
+  author={Mutu, Bilge and Forlizzi, Jodi},
+  booktitle={Design \& Emotion},
+  year={2004}
+}
+
+@inproceedings{huang2014modeling,
+  title={Modeling Human-Robot Interactions as Systems of Distributed Cognition},
+  author={Huang, Chien-Ming and Mutlu, Bilge},
+  booktitle={2014 AAAI Fall Symposium Series},
+  year={2014}
+}
+
+@inproceedings{szafir2015communicating,
+  title={Communicating directionality in flying robots},
+  author={Szafir, Daniel and Mutlu, Bilge and Fong, Terrence},
+  booktitle={2015 10th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={19--26},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{andrist2015effects,
+  title={Effects of culture on the credibility of robot speech: A comparison between english and arabic},
+  author={Andrist, Sean and Ziadee, Micheline and Boukaram, Halim and Mutlu, Bilge and Sakr, Majd},
+  booktitle={Proceedings of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction},
+  pages={157--164},
+  year={2015}
+}
+
+@inproceedings{andrist2015look,
+  title={Look like me: matching robot personality via gaze to increase motivation},
+  author={Andrist, Sean and Mutlu, Bilge and Tapus, Adriana},
+  booktitle={Proceedings of the 33rd annual ACM conference on human factors in computing systems},
+  pages={3603--3612},
+  year={2015}
+}
+
+@inproceedings{sauppe20159,
+  title={From 9 to 90: Engaging learners of all ages},
+  author={Saupp{\'e}, Allison and Szafir, Daniel and Huang, Chien-Ming and Mutlu, Bilge},
+  booktitle={Proceedings of the 46th ACM Technical Symposium on Computer Science Education},
+  pages={575--580},
+  year={2015}
+}
+
+@inproceedings{sauppe2015social,
+  title={The social impact of a robot co-worker in industrial settings},
+  author={Saupp{\'e}, Allison and Mutlu, Bilge},
+  booktitle={Proceedings of the 33rd annual ACM conference on human factors in computing systems},
+  pages={3613--3622},
+  year={2015}
+}
+
+@inproceedings{clodic2015fja,
+  title={FJA@ HRI15-Toward a Framework for Joint Action},
+  author={Clodic, Aur{\'e}lie and Alami, Rachid and Vesper, Cordula and Pacherie, Elisabeth and Mutlu, Bilge and Shah, Julie},
+  booktitle={HRI 2015 Workshop" Towards a Framework for Joint Action"},
+  year={2015}
+}
+
+@inproceedings{kanaoka2015designing,
+  title={Designing a motivational agent for behavior change in physical activity},
+  author={Kanaoka, Toshikazu and Mutlu, Bilge},
+  booktitle={Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems},
+  pages={1445--1450},
+  year={2015}
+}
+
+@inproceedings{ruhland2015review,
+  title={A review of eye gaze in virtual agents, social robotics and hci: Behaviour generation, user interaction and perception},
+  author={Ruhland, Kerstin and Peters, Christopher E and Andrist, Sean and Badler, Jeremy B and Badler, Norman I and Gleicher, Michael and Mutlu, Bilge and McDonnell, Rachel},
+  booktitle={Computer graphics forum},
+  volume={34},
+  number={6},
+  pages={299--326},
+  year={2015}
+}
+
+@article{duff2015novel,
+  title={Novel theoretical and methodological approaches to disruptions in social communication following acquired brain injury},
+  author={Duff, Melissa C and Mutlu, Bilge and Byom, Lindsey J and Turkstra, Lyn S},
+  journal={Routledge Handbook of Communication Disorders},
+  pages={404},
+  year={2015},
+  publisher={Routledge}
+}
+
+@inproceedings{huang2015adaptive,
+  title={Adaptive Coordination Strategies for Human-Robot Handovers.},
+  author={Huang, Chien-Ming and Cakmak, Maya and Mutlu, Bilge},
+  booktitle={Robotics: science and systems},
+  volume={11},
+  year={2015},
+  organization={Rome, Italy}
+}
+
+@article{mutlutele,
+  title={From Tele-presence to Tele-mobility: Exploring the Design Space for Robotic Communication Products},
+  author={Mutlu, Bilge},
+  journal={Proceedings of Human-Computer Interaction Consortium}
+}
+
+@article{andrist2015look,
+  title={Look together: Analyzing gaze coordination with epistemic network analysis},
+  author={Andrist, Sean and Collier, Wesley and Gleicher, Michael and Mutlu, Bilge and Shaffer, David},
+  journal={Frontiers in psychology},
+  volume={6},
+  pages={1016},
+  year={2015},
+  publisher={Frontiers}
+}
+
+@article{huang2015using,
+  title={Using gaze patterns to predict task intent in collaboration},
+  author={Huang, Chien-Ming and Andrist, Sean and Saupp{\'e}, Allison and Mutlu, Bilge},
+  journal={Frontiers in psychology},
+  volume={6},
+  pages={1049},
+  year={2015},
+  publisher={Frontiers}
+}
+
+@article{sauppe2015effective,
+  title={Effective task training strategies for human and robot instructors},
+  author={Saupp{\'e}, Allison and Mutlu, Bilge},
+  journal={Autonomous Robots},
+  volume={39},
+  number={3},
+  pages={313--329},
+  year={2015},
+  publisher={Springer US}
+}
+
+@incollection{rakita2015inferring,
+  title={Inferring gaze shifts from captured body motion},
+  author={Rakita, Daniel and Pejsa, Tomislav and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={ACM SIGGRAPH 2015 Posters},
+  pages={1--1},
+  year={2015}
+}
+
+@techreport{price2016psychophysics,
+  title={Psychophysics of trust in vehicle control algorithms},
+  author={Price, Morgan A and Venkatraman, Vindhya and Gibson, Madeleine and Lee, John and Mutlu, Bilge},
+  year={2016},
+  institution={SAE Technical paper}
+}
+
+@inproceedings{huang2016anticipatory,
+  title={Anticipatory robot control for efficient human-robot collaboration},
+  author={Huang, Chien-Ming and Mutlu, Bilge},
+  booktitle={2016 11th ACM/IEEE international conference on human-robot interaction (HRI)},
+  pages={83--90},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{gibson2016situation,
+  title={Situation awareness, scenarios, and secondary tasks: measuring driver performance and safety margins in highly automated vehicles},
+  author={Gibson, Madeleine and Lee, John and Venkatraman, Vindhya and Price, Morgan and Lewis, Jeffrey and Montgomery, Olivia and Mutlu, Bilge and Domeyer, Joshua and Foley, James},
+  journal={SAE International Journal of Connected and Automated Vehicles},
+  volume={1},
+  number={2016-01-0145},
+  pages={33--40},
+  year={2016}
+}
+
+@article{pejsa2013animating,
+  title={Animating the Gaze Behavior of Virtual Characters},
+  author={Pejsa, Tomislav and Mutlu, Bilge and Gleicher, Michael},
+  year={2013}
+}
+
+@inproceedings{sirkin2016design,
+  title={Design skills for HRI},
+  author={Sirkin, David and Martelaro, Nik and Tennent, Hamish and Johns, Mishel and Mok, Brian and Ju, Wendy and Hoffman, Guy and Knight, Heather and Mutlu, Bilge and Takayama, Leila},
+  booktitle={2016 11th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={581--582},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{herring2016future,
+  title={The future of robotic telepresence: visions, opportunities and challenges},
+  author={Herring, Susan C and Fussell, Susan R and Kristoffersson, Annica and Mutlu, Bilge and Neustaedter, Carman and Tsui, Katherine},
+  booktitle={Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+  pages={1038--1042},
+  year={2016}
+}
+
+@article{rigon2016female,
+  title={The female advantage: sex as a possible protective factor against emotion recognition impairment following traumatic brain injury},
+  author={Rigon, Arianna and Turkstra, Lyn and Mutlu, Bilge and Duff, Melissa},
+  journal={Cognitive, Affective, \& Behavioral Neuroscience},
+  volume={16},
+  number={5},
+  pages={866--875},
+  year={2016},
+  publisher={Springer US}
+}
+
+@inproceedings{turkstra2016response,
+  title={Response to text-based social cues in adults with traumatic brain injury},
+  author={Turkstra, Lyn and Politis, Adam and Duff, Melissa and Mutlu, Bilge},
+  booktitle={BRAIN INJURY},
+  volume={30},
+  number={5-6},
+  pages={717--717},
+  year={2016},
+  organization={TAYLOR \& FRANCIS INC 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA}
+}
+
+@inproceedings{turkstra2016sex,
+  title={Sex vs gender effects on self-reported executive function after TBI},
+  author={Turkstra, Lyn and Duff, Melissa and Mutlu, Bilge},
+  booktitle={BRAIN INJURY},
+  volume={30},
+  number={5-6},
+  pages={679--680},
+  year={2016},
+  organization={TAYLOR \& FRANCIS INC 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA}
+}
+
+@article{rigon2016frontal,
+  title={Frontal and temporal structural connectivity is associated with social communication impairment following traumatic brain injury},
+  author={Rigon, Arianna and Voss, Michelle W and Turkstra, Lyn S and Mutlu, Bilge and Duff, Melissa C},
+  journal={Journal of the International Neuropsychological Society},
+  volume={22},
+  number={7},
+  pages={705--716},
+  year={2016},
+  publisher={Cambridge University Press}
+}
+
+@article{mutlu2016cognitive,
+  title={Cognitive human--robot interaction},
+  author={Mutlu, Bilge and Roy, Nicholas and {\v{S}}abanovi{\'c}, Selma},
+  journal={Springer Handbook of Robotics},
+  pages={1907--1934},
+  year={2016},
+  publisher={Springer, Cham}
+}
+
+@article{mutludesigning,
+  title={Designing Social Behavior for Humanlike Robots},
+  author={Mutlu, Bilge}
+}
+
+@misc{broz2015gaze,
+  title={Gaze in human-robot communication},
+  author={Broz, Frank and Lehmann, Hagen and Mutlu, Bilge and Nakano, Yukiko},
+  year={2015},
+  publisher={John Benjamins Publishing Company}
+}
+
+@inproceedings{bodden2016evaluating,
+  title={Evaluating intent-expressive robot arm motion},
+  author={Bodden, Christopher and Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={2016 25th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)},
+  pages={658--663},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{rakita2016motion,
+  title={Motion synopsis for robot arm trajectories},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={2016 25th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)},
+  pages={281--287},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{pejsa2016authoring,
+  title={Authoring directed gaze for full-body motion capture},
+  author={Pejsa, Tomislav and Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={35},
+  number={6},
+  pages={1--11},
+  year={2016},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{rigon2017relationship,
+  title={Relationship between individual differences in functional connectivity and facial-emotion recognition abilities in adults with traumatic brain injury},
+  author={Rigon, Arianna and Voss, Michelle W and Turkstra, Lyn Siobhan and Mutlu, Bilge and Duff, MC},
+  journal={NeuroImage: Clinical},
+  volume={13},
+  pages={370--377},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{turkstra2017labelling,
+  title={Labelling Facial Affect in Context in Adults with and without TBI},
+  author={Turkstra, Lyn S and Kraning, Sarah G and Riedeman, Sarah K and Mutlu, Bilge and Duff, Melissa and VanDenHeuvel, Sara},
+  journal={Brain Impairment},
+  volume={18},
+  number={1},
+  pages={49--61},
+  year={2017},
+  publisher={Cambridge University Press}
+}
+
+@article{andrist2016turn,
+  title={Turn-taking and coordination in human-machine interaction},
+  author={Andrist, Sean and Bohus, Dan and Mutlu, Bilge and Schlangen, David},
+  journal={AI Magazine},
+  volume={37},
+  number={4},
+  pages={5--6},
+  year={2016}
+}
+
+@inproceedings{rakita2017motion,
+  title={A motion retargeting method for effective mimicry-based teleoperation of robot arms},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={Proceedings of the 2017 ACM/IEEE International Conference on Human-Robot Interaction},
+  pages={361--370},
+  year={2017}
+}
+
+@article{szafir2017designing,
+  title={Designing planning and control interfaces to support user collaboration with flying robots},
+  author={Szafir, Daniel and Mutlu, Bilge and Fong, Terrence},
+  journal={The International Journal of Robotics Research},
+  volume={36},
+  number={5-7},
+  pages={514--542},
+  year={2017},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@article{paxton2017user,
+  title={User experience of the CoSTAR system for instruction of collaborative robots},
+  author={Paxton, Chris and Jonathan, Felix and Hundt, Andrew and Mutlu, Bilge and Hager, Gregory D},
+  journal={arXiv preprint arXiv:1703.07890},
+  year={2017}
+}
+
+@techreport{bodden2016systems,
+  title={Systems For Synthesizing and Studying Robot Motion},
+  author={Bodden, Christopher and Mutlu, Bilge and Gleicher, Michael},
+  year={2016}
+}
+
+@inproceedings{andrist2017looking,
+  title={Looking coordinated: Bidirectional gaze mechanisms for collaborative interaction with virtual characters},
+  author={Andrist, Sean and Gleicher, Michael and Mutlu, Bilge},
+  booktitle={Proceedings of the 2017 CHI conference on human factors in computing systems},
+  pages={2571--2582},
+  year={2017}
+}
+
+@inproceedings{michaelis2017someone,
+  title={Someone to read with: Design of and experiences with an in-home learning companion robot for reading},
+  author={Michaelis, Joseph E and Mutlu, Bilge},
+  booktitle={Proceedings of the 2017 CHI conference on human factors in computing systems},
+  pages={301--312},
+  year={2017}
+}
+
+@article{turkstra2019detection,
+  title={Detection of text-based social cues in adults with traumatic brain injury},
+  author={Turkstra, Lyn Siobhan and Duff, Melissa Collins and Politis, Adam Michael and Mutlu, Bilge},
+  journal={Neuropsychological rehabilitation},
+  volume={29},
+  number={5},
+  pages={789--803},
+  year={2019},
+  publisher={Routledge}
+}
+
+@inproceedings{pejsa2017me,
+  title={Who, me? How virtual agents can shape conversational footing in virtual reality},
+  author={Pejsa, Tomislav and Gleicher, Michael and Mutlu, Bilge},
+  booktitle={International Conference on Intelligent Virtual Agents},
+  pages={347--359},
+  year={2017},
+  organization={Springer, Cham}
+}
+
+@article{mutlu2019social,
+  title={Social-cue perception and mentalizing ability following traumatic brain injury: A human-robot interaction study},
+  author={Mutlu, Bilge and Duff, Melissa and Turkstra, Lyn},
+  journal={Brain injury},
+  volume={33},
+  number={1},
+  pages={23--31},
+  year={2019},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{rigon2017neural,
+  title={Neural mechanism underlying facial affect recognition deficits in TBI: An FMRI study},
+  author={Rigon, Arianna and Voss, Michelle and Turkstra, Lyn and Mutlu, Bilge and Duff, Melissa},
+  booktitle={BRAIN INJURY},
+  volume={31},
+  number={6-7},
+  pages={942--942},
+  year={2017},
+  organization={TAYLOR \& FRANCIS INC 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA}
+}
+
+@inproceedings{liu2017understanding,
+  title={Understanding human-robot interaction in virtual reality},
+  author={Liu, Oliver and Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={2017 26th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)},
+  pages={751--757},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{rae2013influence,
+  title={The influence of height in robot-mediated communication},
+  author={Rae, Irene and Takayama, Leila and Mutlu, Bilge},
+  booktitle={2013 8th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={1--8},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{rae2013body,
+  title={In-body experiences: embodiment, control, and trust in robot-mediated communication},
+  author={Rae, Irene and Takayama, Leila and Mutlu, Bilge},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={1921--1930},
+  year={2013}
+}
+
+@inproceedings{rae2014bodies,
+  title={Bodies in motion: mobility, presence, and task awareness in telepresence},
+  author={Rae, Irene and Mutlu, Bilge and Takayama, Leila},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={2153--2162},
+  year={2014}
+}
+
+@inproceedings{rae2012one,
+  title={One of the gang: supporting in-group behavior for embodied mediated communication},
+  author={Rae, Irene and Takayama, Leila and Mutlu, Bilge},
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={3091--3100},
+  year={2012}
+}
+
+@inproceedings{johnson2015can,
+  title={Can you see me now? How field of view affects collaboration in robotic telepresence},
+  author={Johnson, Steven and Rae, Irene and Mutlu, Bilge and Takayama, Leila},
+  booktitle={Proceedings of the 33rd annual acm conference on human factors in computing systems},
+  pages={2397--2406},
+  year={2015}
+}
+
+@article{huang2013repertoire,
+  title={The repertoire of robot behavior: Designing social behaviors to support human-robot joint activity},
+  author={Huang, Chien-Ming and Mutlu, Bilge},
+  journal={Journal of Human-Robot Interaction},
+  volume={2},
+  number={2},
+  pages={80--102},
+  year={2013}
+}
+
+@article{mutlu2015enabling,
+  title={Enabling human-robot dialogue},
+  author={Mutlu, Bilge and Andrist, Sean and Saupp{\'e}, Allison},
+  journal={Robots that Talk and Listen. Berlin: De Gruyter},
+  pages={81--124},
+  year={2015}
+}
+
+@inproceedings{rae2015everyday,
+  title={Everyday telepresence: Emerging practices and future research directions},
+  author={Rae, Irene and Mutlu, Bilge and Olson, Gary M and Olson, Judith S and Takayama, Leila and Venolia, Gina},
+  booktitle={Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems},
+  pages={2409--2412},
+  year={2015}
+}
+
+@phdthesis{mutlu2003tasarim,
+  title={Tasar{\i}m Yenili{\u{g}}i {\.I}{\c{c}}in Kullan{\i}c{\i} Merkezli Yeni Y{\"o}ntemler: Yeni Ortaya {\c{C}}{\i}kan Y{\"o}ntemlerin Yenilik{\c{c}}i {\"U}r{\"u}n Tasar{\i}m{\i} Ve Geli{\c{s}}tirmedeki Rol{\"u} {\"U}zerine Bir {\c{C}}al{\i}{\c{s}}ma},
+  author={Mutlu, Bilge Din{\c{c}}er},
+  year={2003},
+  school={Fen Bilimleri Enstit{\"u}s{\"u}}
+}
+
+@inproceedings{choi2017movement,
+  title={Movement matters: effects of motion and mimicry on perception of similarity and closeness in robot-mediated communication},
+  author={Choi, Mina and Kornfield, Rachel and Takayama, Leila and Mutlu, Bilge},
+  booktitle={Proceedings of the 2017 CHI conference on human factors in computing systems},
+  pages={325--335},
+  year={2017}
+}
+
+@article{huanggazein,
+  title={GazeIn 2013 Workshop Organization},
+  author={Huang, Hung-Hsuan and Jokinen, Kristiina and Nakano, Yukiko I and Anrist, Sean and Bortz, Brennon and Buschmeier, Hendrik and Conati, Cristina and Eivazi, Shahram and Foster, Mary Ellen and Epps, Julien and others}
+}
+
+@article{turkstra2018impaired,
+  title={Impaired theory of mind in adults with traumatic brain injury: A replication and extension of findings},
+  author={Turkstra, LS and Norman, RS and Mutlu, B and Duff, MC},
+  journal={Neuropsychologia},
+  volume={111},
+  pages={117--122},
+  year={2018},
+  publisher={Pergamon}
+}
+
+@article{pearce2018optimizing,
+  title={Optimizing makespan and ergonomics in integrating collaborative robots into manufacturing processes},
+  author={Pearce, Margaret and Mutlu, Bilge and Shah, Julie and Radwin, Robert},
+  journal={IEEE transactions on automation science and engineering},
+  volume={15},
+  number={4},
+  pages={1772--1784},
+  year={2018},
+  publisher={IEEE}
+}
+
+@inproceedings{rakita2018shared,
+  title={Shared dynamic curves: A shared-control telemanipulation method for motor task training},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael and Hiatt, Laura M},
+  booktitle={Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction},
+  pages={23--31},
+  year={2018}
+}
+
+@inproceedings{rakita2018autonomous,
+  title={An autonomous dynamic camera method for effective remote teleoperation},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction},
+  pages={325--333},
+  year={2018}
+}
+
+@inproceedings{deng2018formalizing,
+  title={Formalizing the design space and product development cycle for socially interactive robots},
+  author={Deng, Eric C and Mutlu, Bilge and Mataric, Maja J},
+  booktitle={Workshop on Social Robots in the Wild at the 2018 ACM Conference on Human-Robot Interaction (HRI)},
+  year={2018}
+}
+
+@article{rigon2018different,
+  title={Different aspects of facial affect recognition impairment following traumatic brain injury: The role of perceptual and interpretative abilities},
+  author={Rigon, Arianna and Voss, Michelle W and Turkstra, Lyn S and Mutlu, Bilge and Duff, Melissa C},
+  journal={Journal of clinical and experimental neuropsychology},
+  volume={40},
+  number={8},
+  pages={805--819},
+  year={2018},
+  publisher={Routledge}
+}
+
+@inproceedings{meschtscherjakov2018interacting,
+  title={Interacting with autonomous vehicles: Learning from other domains},
+  author={Meschtscherjakov, Alexander and Tscheligi, Manfred and Pfleging, Bastian and Sadeghian Borojeni, Shadan and Ju, Wendy and Palanque, Philippe and Riener, Andreas and Mutlu, Bilge and Kun, Andrew L},
+  booktitle={Extended abstracts of the 2018 CHI conference on human factors in computing Systems},
+  pages={1--8},
+  year={2018}
+}
+
+@article{rigon2019functional,
+  title={Functional neural correlates of facial affect recognition impairment following TBI},
+  author={Rigon, Arianna and Voss, Michelle W and Turkstra, Lyn S and Mutlu, Bilge and Duff, Melissa C},
+  journal={Brain imaging and behavior},
+  volume={13},
+  number={2},
+  pages={526--540},
+  year={2019},
+  publisher={Springer US}
+}
+
+@article{rigon2018facial,
+  title={Facial-affect recognition deficit as a predictor of different aspects of social-communication impairment in traumatic brain injury.},
+  author={Rigon, Arianna and Turkstra, Lyn S and Mutlu, Bilge and Duff, Melissa C},
+  journal={Neuropsychology},
+  volume={32},
+  number={4},
+  pages={476},
+  year={2018},
+  publisher={American Psychological Association}
+}
+
+@article{rigon2019white,
+  title={White matter correlates of different aspects of facial affect recognition impairment following traumatic brain injury},
+  author={Rigon, Arianna and Voss, Michelle W and Turkstra, Lyn S and Mutlu, Bilge and Duff, Melissa C},
+  journal={Social neuroscience},
+  volume={14},
+  number={4},
+  pages={434--448},
+  year={2019},
+  publisher={Routledge}
+}
+
+@inproceedings{rakita2018relaxedik,
+  title={RelaxedIK: Real-time Synthesis of Accurate and Feasible Robot Arm Motion.},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={Robotics: Science and Systems},
+  pages={26--30},
+  year={2018},
+  organization={Pittsburgh, PA}
+}
+
+@article{michaelis2018reading,
+  title={Reading socially: Transforming the in-home reading experience with a learning-companion robot},
+  author={Michaelis, Joseph E and Mutlu, Bilge},
+  journal={Science Robotics},
+  volume={3},
+  number={21},
+  year={2018},
+  publisher={Science Robotics}
+}
+
+@article{bodden2018flexible,
+  title={A flexible optimization-based method for synthesizing intent-expressive robot arm motion},
+  author={Bodden, Christopher and Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  journal={The International Journal of Robotics Research},
+  volume={37},
+  number={11},
+  pages={1376--1394},
+  year={2018},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@inproceedings{flynn2018friendship,
+  title={Friendship quality, friendship quantity, and social participation in adults with traumatic brain injury},
+  author={Flynn, Margaret A and Mutlu, Bilge and Duff, Melissa C and Turkstra, Lyn S},
+  booktitle={Seminars in speech and language},
+  volume={39},
+  number={05},
+  pages={416--426},
+  year={2018},
+  organization={Thieme Medical Publishers}
+}
+
+@inproceedings{porfirio2018authoring,
+  title={Authoring and verifying human-robot interactions},
+  author={Porfirio, David and Saupp{\'e}, Allison and Albarghouthi, Aws and Mutlu, Bilge},
+  booktitle={Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology},
+  pages={75--86},
+  year={2018}
+}
+
+@article{politis2018psychological,
+  title={Psychological Distress and Communication Challenges in Adults With TBI},
+  author={Politis, Adam and Mutlu, Bilge and Turkstra, Lyn and Duff, Melissa},
+  journal={Archives of Physical Medicine and Rehabilitation},
+  volume={99},
+  number={11},
+  pages={e146},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@inproceedings{paxton2018evaluating,
+  title={Evaluating methods for end-user creation of robot task plans},
+  author={Paxton, Chris and Jonathan, Felix and Hundt, Andrew and Mutlu, Bilge and Hager, Gregory D},
+  booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={6086--6092},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{chandrasekaran2018characterizing,
+  title={Characterizing privacy perceptions of voice assistants: A technology probe study},
+  author={Chandrasekaran, Varun and Fawaz, Kassem and Mutlu, Bilge and Banerjee, Suman},
+  journal={arXiv preprint arXiv:1812.00263},
+  year={2018}
+}
+
+@article{byom2019facial,
+  title={Facial emotion recognition of older adults with traumatic brain injury},
+  author={Byom, Lindsey and Duff, Melissa and Mutlu, Bilge and Turkstra, Lyn},
+  journal={Brain injury},
+  volume={33},
+  number={3},
+  pages={322--332},
+  year={2019},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{cuijpers2011attitude,
+  title={Attitude towards robots depends on interaction but not on anticipatory behaviour},
+  author={Cuijpers, Raymond H and Bruna, Maarten T and Ham, Jaap RC and Torta, Elena},
+  booktitle={International Conference on Social Robotics},
+  pages={163--172},
+  year={2011},
+  organization={Springer, Berlin, Heidelberg}
+}
+
+@article{deng2019embodiment,
+  title={Embodiment in socially interactive robots},
+  author={Deng, Eric and Mutlu, Bilge and Mataric, Maja},
+  journal={arXiv preprint arXiv:1912.00312},
+  year={2019}
+}
+
+@inproceedings{praveena2019characterizing,
+  title={Characterizing input methods for human-to-robot demonstrations},
+  author={Praveena, Pragathi and Subramani, Guru and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={344--353},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{mutlu2006storytelling,
+  title={A storytelling robot: Modeling and evaluation of human-like gaze behavior. under review},
+  author={Mutlu, B},
+  booktitle={International Conference on Humanoid Robots},
+  year={2006}
+}
+
+@incollection{michaelis2018social,
+  title={Social Reading: Field Study with an In-Home Learning Companion Robot},
+  author={Michaelis, Joseph E and Mutlu, Bilge},
+  year={2018},
+  publisher={International Society of the Learning Sciences, Inc.[ISLS].}
+}
+
+@inproceedings{praveena2019supplementary,
+  title={Supplementary Material for Characterizing Input Methods for Human-to-Robot Demonstrations},
+  author={Praveena, Pragathi and Subramani, Guru and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={1--3},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{porfirio2019computational,
+  title={Computational tools for human-robot interaction design},
+  author={Porfirio, David and Saupp{\'e}, Allison and Albarghouthi, Aws and Mutlu, Bilge},
+  booktitle={2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={733--735},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{rakita2019stampede,
+  title={Stampede: A discrete-optimization method for solving pathwise-inverse kinematics},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)},
+  pages={3507--3513},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{praveena2019user,
+  title={User-guided offline synthesis of robot arm motion from 6-dof paths},
+  author={Praveena, Pragathi and Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)},
+  pages={8825--8831},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{michaelis2019supporting,
+  title={Supporting interest in science learning with a social robot},
+  author={Michaelis, Joseph E and Mutlu, Bilge},
+  booktitle={Proceedings of the 18th ACM International Conference on Interaction Design and Children},
+  pages={71--82},
+  year={2019}
+}
+
+@article{flynn2019characterizing,
+  title={Characterizing computer-mediated communication, friendship, and social participation in adults with traumatic brain injury},
+  author={Flynn, Margaret A and Rigon, Arianna and Kornfield, Rachel and Mutlu, Bilge and Duff, Melissa C and Turkstra, Lyn S},
+  journal={Brain injury},
+  volume={33},
+  number={8},
+  pages={1097--1104},
+  year={2019},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{edwards2019white,
+  title={White Matter Correlates of Theory of Mind Impairment in TBI: Structural Integrity of the Uncinate Fasciculus is Related to performance on the Reading the Mind in the Eyes Task},
+  author={Edwards, Malcolm and Rigon, Arianna and Mutlu, Bilge and Turkstra, Lyn and Voss, Michelle and Duff, Melissa},
+  booktitle={BRAIN INJURY},
+  volume={33},
+  pages={254--254},
+  year={2019},
+  organization={TAYLOR \& FRANCIS LTD 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON~…}
+}
+
+@inproceedings{duff2019individual,
+  title={Individual Differences in Social Perception and Social Communication in Adults with Moderate-Severe Traumatic Brain Injury},
+  author={Duff, Melissa and Rigon, Arianna and Kim, Jee-Seon and Mutlu, Bilge and Turkstra, Lyn},
+  booktitle={BRAIN INJURY},
+  volume={33},
+  pages={46--46},
+  year={2019},
+  organization={TAYLOR \& FRANCIS LTD 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON~…}
+}
+
+@inproceedings{mutlu2019regulation,
+  title={The Regulation of Intimacy and Personal Space Following Traumatic Brain Injury: A Human-Robot Interaction Study},
+  author={Mutlu, Bilge and Duff, Melissa and Turkstra, Lyn},
+  booktitle={BRAIN INJURY},
+  volume={33},
+  pages={72--73},
+  year={2019},
+  organization={TAYLOR \& FRANCIS LTD 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON~…}
+}
+
+@article{rakita2019shared,
+  title={Shared control--based bimanual robot manipulation},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael and Hiatt, Laura M},
+  journal={Science Robotics},
+  volume={4},
+  number={30},
+  year={2019},
+  publisher={Science Robotics}
+}
+
+@article{rakita2019remote,
+  title={Remote telemanipulation with adapting viewpoints in visually complex environments},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  journal={Robotics: Science and Systems XV},
+  year={2019}
+}
+
+@inproceedings{porfirio2019bodystorming,
+  title={Bodystorming human-robot interactions},
+  author={Porfirio, David and Fisher, Evan and Saupp{\'e}, Allison and Albarghouthi, Aws and Mutlu, Bilge},
+  booktitle={Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology},
+  pages={479--491},
+  year={2019}
+}
+
+@article{chandrasekaran2018blackout,
+  title={Blackout and obfuscator: an exploration of the design space for privacy-preserving interventions for voice assistants},
+  author={Chandrasekaran, Varun and Linden, Thomas and Fawaz, Kassem and Mutlu, Bilge and Banerjee, Suman},
+  journal={arXiv preprint arXiv:1812.00263},
+  year={2018}
+}
+
+@article{turkstra2020sex,
+  title={Sex and gender differences in emotion recognition and theory of mind after TBI: a narrative review and directions for future research},
+  author={Turkstra, Lyn S and Mutlu, Bilge and Ryan, Caitlin W and Despins Stafslien, Emily H and Richmond, Erica K and Hosokawa, Emily and Duff, Melissa C},
+  journal={Frontiers in neurology},
+  volume={11},
+  pages={59},
+  year={2020},
+  publisher={Frontiers}
+}
+
+@inproceedings{rakita2020effects,
+  title={Effects of Onset Latency and Robot Speed Delays on Mimicry-Control Teleoperation},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={HRI'20: Proceedings of the 2020 ACM/IEEE International Conference on Human-Robot Interaction},
+  year={2020}
+}
+
+@inproceedings{terziouglu2020designing,
+  title={Designing social cues for collaborative robots: the role of gaze and breathing in human-robot collaboration},
+  author={Terzio{\u{g}}lu, Yunus and Mutlu, Bilge and {\c{S}}ahin, Erol},
+  booktitle={Proceedings of the 2020 ACM/IEEE International Conference on Human-Robot Interaction},
+  pages={343--357},
+  year={2020}
+}
+
+@inproceedings{praveena2020supporting,
+  title={Supporting Perception of Weight through Motion-induced Sensory Conflicts in Robot Teleoperation},
+  author={Praveena, Pragathi and Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  booktitle={Proceedings of the 2020 ACM/IEEE International Conference on Human-Robot Interaction},
+  pages={509--517},
+  year={2020}
+}
+
+@inproceedings{porfirio2020transforming,
+  title={Transforming robot programs based on social context},
+  author={Porfirio, David and Saupp{\'e}, Allison and Albarghouthi, Aws and Mutlu, Bilge},
+  booktitle={Proceedings of the 2020 CHI conference on human factors in computing systems},
+  pages={1--12},
+  year={2020}
+}
+
+@inproceedings{michaelis2020collaborative,
+  title={Collaborative or simply uncaged? understanding human-cobot interactions in automation},
+  author={Michaelis, Joseph E and Siebert-Evenstone, Amanda and Shaffer, David Williamson and Mutlu, Bilge},
+  booktitle={Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems},
+  pages={1--12},
+  year={2020}
+}
+
+@article{mutlu2003yeni,
+  title={Yeni {\"U}r{\"u}n Tasar{\i}m{\i}nda K{\"u}lt{\"u}rel Kaynakl{\i} Kullan{\i}c{\i} Gereksinimleri ve K{\"u}resel Rekabet: Ar{\c{c}}elik-Tiryaki {\"O}rne{\u{g}}i},
+  author={Mutlu, B and Er, A},
+  journal={Cultural user requirements in new product design and global competition--Ar{\c{c}}elik Tiryaki case]. PI.: Pazarlama ve I. letisim K{\"u}lt{\"u}r{\"u} Dergisi [Pi: Marketing and Communications Culture Journal]},
+  volume={2},
+  number={6},
+  pages={19--23},
+  year={2003}
+}
+
+@inproceedings{cagiltay2020investigating,
+  title={Investigating family perceptions and design preferences for an in-home robot},
+  author={Cagiltay, Bengisu and Ho, Hui-Ru and Michaelis, Joseph E and Mutlu, Bilge},
+  booktitle={Proceedings of the interaction design and children conference},
+  pages={229--242},
+  year={2020}
+}
+
+@misc{mutlu2011proceedings,
+  title={Proceedings of the Third international conference on Social Robotics},
+  author={Mutlu, Bilge and Bartneck, Christoph and Ham, Jaap and Evers, Vanessa},
+  year={2011},
+  publisher={Springer-Verlag}
+}
+
+@article{rakita2020analysis,
+  title={An analysis of RelaxedIK: an optimization-based framework for generating accurate and feasible robot arm motions},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  journal={Autonomous Robots},
+  volume={44},
+  number={7},
+  pages={1341--1358},
+  year={2020},
+  publisher={Springer US}
+}
+
+@article{mutlu2021virtual,
+  title={The virtual and the physical: two frames of mind},
+  author={Mutlu, Bilge},
+  journal={Iscience},
+  volume={24},
+  number={2},
+  pages={101965},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@inproceedings{zhao2020task,
+  title={Task Interdependence in Human-Robot Teaming},
+  author={Zhao, Fangyun and Henrichs, Curt and Mutlu, Bilge},
+  booktitle={2020 29th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  pages={1143--1149},
+  year={2020},
+  organization={IEEE}
+}
+
+@inproceedings{schoen2020authr,
+  title={Authr: A Task Authoring Environment for Human-Robot Teams},
+  author={Schoen, Andrew and Henrichs, Curt and Strohkirch, Mathias and Mutlu, Bilge},
+  booktitle={Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology},
+  pages={1194--1208},
+  year={2020}
+}
+
+@article{aleahmad2002,
+  title={2002-2021 Theses by Author},
+  author={ALEAHMAD, Turadg and ALLIN, Sonya J and ANKOLEKAR, Anupriya and ANTHONY, Lisa and AVRAHAMI, Daniel and BAKER, Ryan Shaun and BALAKRISHNAN, Aruna D and BANOVIC, Nikola and BAUER, Aaron and BURKE, Moira and others}
+}
+
+@inproceedings{porfirio2021figaro,
+  title={Figaro: A Tabletop Authoring Environment for Human-Robot Interaction},
+  author={Porfirio, David J and Stegner, Laura and Cakmak, Maya and Saupp{\'e}, Allison and Albarghouthi, Aws and Mutlu, Bilge},
+  booktitle={Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+  pages={1--15},
+  year={2021}
+}
+
+@inproceedings{siebert2021safety,
+  title={Safety First: Developing a Model of Expertise in Collaborative Robotics},
+  author={Siebert-Evenstone, Amanda and Michaelis, Joseph E and Shaffer, David Williamson and Mutlu, Bilge},
+  booktitle={International Conference on Quantitative Ethnography},
+  pages={304--318},
+  year={2021},
+  organization={Springer, Cham}
+}
+
+@inproceedings{shaffer2021safety,
+  title={Safety First: Developing a Model of Expertise in Collaborative Robotics},
+  author={Shaffer, David Williamson and Mutlu, Bilge},
+  booktitle={Advances in Quantitative Ethnography: Second International Conference, ICQE 2020, Malibu, CA, USA, February 1-3, 2021, Proceedings},
+  volume={1312},
+  pages={304},
+  year={2021},
+  organization={Springer Nature}
+}
+
+@article{hagenow2021corrective,
+  title={Corrective Shared Autonomy for Addressing Task Variability},
+  author={Hagenow, Michael and Senft, Emmanuel and Radwin, Robert and Gleicher, Michael and Mutlu, Bilge and Zinn, Michael},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={2},
+  pages={3720--3727},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{rakita2021collisionik,
+  title={CollisionIK: A Per-Instant Pose Optimization Method for Generating Robot Motions with Environment Collision Avoidance},
+  author={Rakita, Daniel and Shi, Haochen and Mutlu, Bilge and Gleicher, Michael},
+  journal={arXiv preprint arXiv:2102.13187},
+  year={2021}
+}
+
+@article{porfiriodesigning,
+  title={Designing and Applying Formal Verification to the Analysis of Human-Robot Interactions},
+  author={Porfirio, David and Sauppe, Allison and Mutlu, Bilge and Albarghouthi, Aws}
+}
+
+@article{rakita2021single,
+  title={Single-query Path Planning Using Sample-efficient Probability Informed Trees},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={3},
+  pages={4624--4631},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{schoenbeyond,
+  title={Beyond the Basic Emotions},
+  author={Schoen, Andrew and Mutlu, Bilge}
+}
+
+@article{rakita2021strobe,
+  title={Strobe: An Acceleration Meta-algorithm for Optimizing Robot Paths using Concurrent Interleaved Sub-Epoch Pods},
+  author={Rakita, Daniel and Mutlu, Bilge and Gleicher, Michael},
+  journal={arXiv preprint arXiv:2106.00153},
+  year={2021}
+}
+
+@inproceedings{hagenow2021recognizing,
+  title={Recognizing orientation slip in human demonstrations},
+  author={Hagenow, Michael and Zhang, Bolun and Mutlu, Bilge and Zinn, Michael and Gleicher, Michael},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={2790--2797},
+  year={2021},
+  organization={IEEE}
+}
+
+@incollection{duff2015communication,
+  title={Communication as distributed cognition: Novel theoretical and methodological approaches to disruptions in social communication following acquired brain injury},
+  author={Duff, Melissa C and Mutlu, Bilge and Byom, Lindsey J and Turkstra, Lyn S},
+  booktitle={Routledge Handbook of Communication Disorders},
+  pages={428--440},
+  year={2015},
+  publisher={Routledge}
+}
+
+@inproceedings{kang2021toonnote,
+  title={ToonNote: Improving Communication in Computational Notebooks Using Interactive Data Comics},
+  author={Kang, DaYe and Ho, Tony and Marquardt, Nicolai and Mutlu, Bilge and Bianchi, Andrea},
+  booktitle={Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+  pages={1--14},
+  year={2021}
+}
+
+@article{mutlusession,
+  title={Session details: Talking with robots: linguistics and natural language},
+  author={Mutlu, Bilge}
+}
+
+@inproceedings{ho2021robomath,
+  title={RoboMath: Designing a Learning Companion Robot to Support Children’s Numerical Skills},
+  author={Ho, Hui-Ru and Cagiltay, Bengisu and White, Nathan Thomas and Hubbard, Edward M and Mutlu, Bilge},
+  booktitle={Interaction Design and Children},
+  pages={283--293},
+  year={2021}
+}
+
+@inproceedings{white2021designing,
+  title={Designing Emotionally Expressive Social Commentary to Facilitate Child-Robot Interaction},
+  author={White, Nathan Thomas and Cagiltay, Bengisu and Michaelis, Joseph E and Mutlu, Bilge},
+  booktitle={Interaction Design and Children},
+  pages={314--325},
+  year={2021}
+}
+
+@inproceedings{hu2021exploring,
+  title={Exploring the Role of Social Robot Behaviors in a Creative Activity},
+  author={Hu, Yaxin and Feng, Lingjie and Mutlu, Bilge and Admoni, Henny},
+  booktitle={Designing Interactive Systems Conference 2021},
+  pages={1380--1389},
+  year={2021}
+}
+
+@article{hagenow2021informing,
+  title={Informing Real-time Corrections in Corrective Shared Autonomy Through Expert Demonstrations},
+  author={Hagenow, Michael and Senft, Emmanuel and Radwin, Robert and Gleicher, Michael and Mutlu, Bilge and Zinn, Michael},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={4},
+  pages={6442--6449},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{bhat2021assessing,
+  title={Assessing limited visibility feedback for overhead manufacturing assembly tasks},
+  author={Bhat, Prajna and Senft, Emmanuel and Zinn, Michael and Gleicher, Michael and Mutlu, Bilge and Cook, Rebecca and Radwin, Robert G},
+  journal={Applied Ergonomics},
+  volume={97},
+  pages={103531},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@inproceedings{chandrasekaran2021powercut,
+  title={$\{$PowerCut$\}$ and Obfuscator: An Exploration of the Design Space for $\{$Privacy-Preserving$\}$ Interventions for Smart Speakers},
+  author={Chandrasekaran, Varun and Banerjee, Suman and Mutlu, Bilge and Fawaz, Kassem},
+  booktitle={Seventeenth Symposium on Usable Privacy and Security (SOUPS 2021)},
+  pages={535--552},
+  year={2021}
+}
+
+@inproceedings{zhang2021characterizing,
+  title={Characterizing the Effects of Haptic Rendering Parameter Variations on Perceived Kinesthetic Rendering Accuracy},
+  author={Zhang, Bolun and Hagenow, Michael and Mutlu, Bilge and Gleicher, Michael and Zinn, Michael},
+  booktitle={2021 IEEE World Haptics Conference (WHC)},
+  pages={868--868},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{senft2021situated,
+  title={Situated Live Programming for Human-Robot Collaboration},
+  author={Senft, Emmanuel and Hagenow, Michael and Radwin, Robert and Zinn, Michael and Gleicher, Michael and Mutlu, Bilge},
+  booktitle={The 34th Annual ACM Symposium on User Interface Software and Technology},
+  pages={613--625},
+  year={2021}
+}
+
+@inproceedings{henrichs2021designing,
+  title={Designing Interface Aids to Assist Collaborative Robot Operators in Attention Management},
+  author={Henrichs, Curt and Zhao, Fangyun and Mutlu, Bilge},
+  booktitle={2021 30th IEEE International Conference on Robot \& Human Interactive Communication (RO-MAN)},
+  pages={264--271},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{morrow2021computer,
+  title={Computer-mediated communication in adults with and without moderate-to-severe traumatic brain injury: survey of social media use},
+  author={Morrow, Emily L and Zhao, Fangyun and Turkstra, Lyn and Toma, Catalina and Mutlu, Bilge and Duff, Melissa C},
+  journal={JMIR rehabilitation and assistive technologies},
+  volume={8},
+  number={3},
+  pages={e26586},
+  year={2021},
+  publisher={JMIR Publications Inc., Toronto, Canada}
+}
+
+@article{senft2021task,
+  title={Task-Level Authoring for Remote Robot Teleoperation},
+  author={Senft, Emmanuel and Hagenow, Michael and Welsh, Kevin and Radwin, Robert and Zinn, Michael and Gleicher, Michael and Mutlu, Bilge},
+  journal={Frontiers in Robotics and AI},
+  pages={302},
+  year={2021},
+  publisher={Frontiers}
+}
+
+@inproceedings{murray2022learning,
+  title={Learning Backchanneling Behaviors for a Social Robot via Data Augmentation from Human-Human Conversations},
+  author={Murray, Michael and Walker, Nick and Nanavati, Amal and Alves-Oliveira, Patricia and Filippov, Nikita and Saupp{\'e}, Allison and Mutlu, Bilge and Cakmak, Maya},
+  booktitle={Conference on Robot Learning},
+  pages={513--525},
+  year={2022},
+  organization={PMLR}
+}
+
+@incollection{mcdonnell2021appearance,
+  title={Appearance},
+  author={McDonnell, Rachel and Mutlu, Bilge},
+  booktitle={The Handbook on Socially Interactive Agents: 20 years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 1: Methods, Behavior, Cognition},
+  pages={105--146},
+  year={2021}
+}
+
+@inproceedings{michaelis2021mindblowing,
+  title={" That Was Mindblowing”: How Reading with a Social Robot Enhances Science Learning Experiences},
+  author={Michaelis, Joseph E and Mutlu, Bilge},
+  booktitle={Proceedings of the 15th International Conference of the Learning Sciences-ICLS 2021.},
+  year={2021},
+  organization={International Society of the Learning Sciences}
+}
+
+@article{kornfield2021so,
+  title={So Close and Yet So Far: How Embodiment Shapes the Effects of Distance in Remote Collaboration},
+  author={Kornfield, Rachel and Rae, Irene and Mutlu, Bilge},
+  journal={Communication Studies},
+  pages={1--27},
+  year={2021},
+  publisher={Routledge}
+}
+
+@article{tang2022confidant,
+  title={CONFIDANT: A Privacy Controller for Social Robots},
+  author={Tang, Brian and Sullivan, Dakota and Cagiltay, Bengisu and Chandrasekaran, Varun and Fawaz, Kassem and Mutlu, Bilge},
+  journal={arXiv preprint arXiv:2201.02712},
+  year={2022}
+}
