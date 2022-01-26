@@ -20,7 +20,22 @@ If you are interested in joining the People and Robots Lab, please read [this pa
 
 My research in [human-robot interaction (HRI)](https://en.wikipedia.org/wiki/Human–robot_interaction) builds human-centered principles and methods to enable effective and intuitive interactions between people and robotic technologies and facilitate the successful integration of these technologies into human environments. Below are highlights from ongoing projects in the [People and Robots Lab](http://peopleandrobots.wisc.edu/).
 
-
+<style>
+table, td, th, tr {
+   border: none;
+   margin-left: 0px;
+}
+thead {
+   background-color: rgba(0, 0, 0, 0.0);
+   border-bottom: 0px;
+}
+tr.border-bottom {
+   border-bottom: 0px;
+}
+a {
+  color: FF7E79;
+}
+</style>
 
 | [![](../images/Programming.png)](/portfolio/porfolio-1/) | [![](../images/20180824_Robotics_112-980x608.jpg)](/portfolio/porfolio-2/) | 
 | :-: | :-: |
