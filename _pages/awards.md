@@ -46,6 +46,16 @@ With Jodi Forlizzi, Sara Kiesler, Carl DiSalvo, Min Kyung Lee, and Cristen Torre
 
 Our work has received two dozen awards/nominations, including 1 10-year impact award, 9 best paper awards, 8 honorable mentions/runners-up, 2 poster awards, and other awards. This follows the my lab's principle of "_Be the best work out there._" 
 
+### 2024
+
+**Honorable Mention** (Top 150 in 4028)
+ACM/SigCHI Human Factors in Computing (CHI 2024) 
+Ho, Hubbard, & Mutlu: "It's Not a Replacement:” Enabling Parent-Robot Collaboration to Support In-Home Learning Experiences of Young Children
+
+**Best Design Paper Award** (Top 6 in 352)
+ACM/IEEE Human-Robot Interaction (HRI 2024) 
+Koike, Wehner, & Mutlu: Sprout: Designing Expressivity for Robots Using Fiber-Embedded Actuation
+
 ### 2023
 
 **UBICOMP 10-Year Impact Award**
