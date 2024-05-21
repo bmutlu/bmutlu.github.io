@@ -84,29 +84,47 @@ I teach undergraduate and graduate classes on human-computer interaction, user e
 
 I work with a fantastic group of advisees who come from a diverse set of background including computer science, industrial design, industrial engineering, and history who are already building their own research programs. If you are interested in working with me, please read [this page](/joining/).
 
-| Current Advisees                                                                                                          | Past Advisees                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| [Sophie Wohltjen](https://www.linkedin.com/in/sophie-wohltjen-9b12b351), *Postdoctoral Researcher*                        | [Emmanuel Senft](https://emmanuel-senft.github.io/), *Postdoctoral Advisee,* Idiap Research Institute                                |
-| [Arissa Sato](https://arissasato.com), *Postdoctoral Researcher*                                                          | [Hajin Lim](https://www.hajinlim.com), *Postdoctoral Advisee,* Seoul National University                                             |
-| [Pragathi Praveena](https://www.linkedin.com/in/itispragathi/), *CS Graduate Student*                                        | [Danny Rakita](https://uwnarratives.wisc.edu/bio/daniel-rakita/), *PhD Advisee,* Yale University                                     |
-| [Andrew Schoen](https://andrewjschoen.github.io/), *CS Graduate Student*                                                  | [David Porfirio](http://pages.cs.wisc.edu/~dporfirio/), *PhD Advisee,* U.S. Naval Research Laboratory                                |
-| [Laura Stegner](http://laurastegner.com/), *CS Graduate Student*                                                          | [Sean Andrist](https://seanandrist.com), *PhD Advisee,* Microsoft Research                                                           |
-| [Bengisu Cagiltay](https://www.linkedin.com/in/bengisucagiltay/), *CS Graduate Student*                                   | [Joseph Michaelis](https://lsri.uic.edu/profiles/michaelis-joseph/), *PhD Advisee,* University of Illinois Chicago                   |
-| [Nathan White](https://www.researchgate.net/profile/Nathan-White-18), *CS Graduate Student*                               | [Tomislav Pejsa](http://pages.cs.wisc.edu/~tpejsa/), *PhD Advisee,* Meta                                                             |
-| [Christine Lee](https://scholar.google.co.kr/citations?user=-K0MmdoAAAAJ&hl=en), *CS Graduate Student*                    | [Chien-Ming Huang](https://www.cs.jhu.edu/~cmhuang/), *PhD Advisee,* Johns Hopkins University                                        |
-| [Amy Koike](https://amykoike.notion.site/Amy-Koike-s-Portfolio-25f2b3e0429e498183aa739b193fda01), *CS Graduate Student*   | [Shadeequa Miller](https://www.linkedin.com/in/s-dee-miller-58240710), *PhD Advisee,* Dell Corporation                               |
-| [Yaxin Hu](http://www.edayaxin.com/about), CS Graduate Student                                                            | [Daniel Szafir](https://cs.unc.edu/person/daniel-szafir/), *PhD Advisee,* University of North Carolina Chapel Hill                   |
-| [Dakota Sullivan](https://peopleandrobots.wisc.edu/staff/sullivan-dakota/), *CS Graduate Student*                         | [Irene Rae](http://rene.chargingwombat.com/), *PhD Advisee,* Google, Inc.                                                            |
-| [Hailey Johnson](https://www.linkedin.com/in/hailey-lynn-johnson), *CS Graduate Student*                                  | [Allison Sauppé](https://cs.uwlax.edu/~asauppe/), *PhD Advisee,* University of Wisconsin–La Crosse                                   |
-| [Callie Kim](https://callie-kim.com/), *CS Graduate Student*                                                              | [Kevin Welsh](https://www.linkedin.com/in/kevin-welsh-668140bb), *MS Advisee,* Los Alamos National Labs                              |
-| [Yuna Hwang](https://www.linkedin.com/in/yuna-hwang-35b6b4234?trk=public_profile_samename-profile), *CS Graduate Student* | [Curt Henrichs](https://robotics.wisc.edu/staff/henrichs-curt/), *MS Advisee,* Integrated Dynamic Electron Solutions, Inc.           |
-| [Michael Xu](http://www.michaelfxu.com), *CS Graduate Student*                                                            | [Steven Johnson](http://pages.cs.wisc.edu/~sjj/), *MS Advisee,* Google, Inc.                                                         |
-| [Irene Ho](https://edpsych.education.wisc.edu/staff/ho-hui-ru/), *Ed Psych Graduate Student*                              | [Margaret Pearce](https://www.linkedin.com/in/margaretpearce), *MS Advisee,* Deepfield                                               |
-| [Leo Cui](https://www.linkedin.com/in/leocuimn/), *CS Graduate Student*                                                   | [Christopher Bodden](https://uwnarratives.wisc.edu/bio/christopher-bodden/), *MS Advisee,* Software Engineer                         |
-|                                                                                                                           | [Faisal Khan](https://uwnarratives.wisc.edu/bio/christopher-bodden/), *MS Advisee,* Argonne National Lab                             |
-|                                                                                                                           | [Erica (Lewis) Martin]([http://ericaslewis.com/](https://www.linkedin.com/in/erica-martin-lewis-866080a5/)), *BS Advisee,* Microsoft |
-|                                                                                                                           | [Nathalie Cheng](http://www.linkedin.com/in/nathaliecheng), *BS Advisee,* Exygy                                                      |
-|                                                                                                                           | [Jonathan Mumm](http://www.linkedin.com/in/jonathanrmumm), *BS Advisee,* hims & hers                                                 |
-|                                                                                                                           | [Zhi Tan](http://xiangzhitan.com/), *BS Advisee,* Northeastern University                                                            |
-|                                                                                                                           | [Mike Hagenow](https://www.hageneaux.com/), *Informal Advisee,* MIT CSAIL                                                            |
-|                                                                                                                           | [Olivia Zhao](https://www.olivia-zhao.com/), *PhD Advisee,* META                                                                     |
+### Current Advisees
+[Sophie Wohltjen](https://www.linkedin.com/in/sophie-wohltjen-9b12b351), Postdoctoral Researcher
+[Arissa Sato](https://arissasato.com), Postdoctoral Researcher
+[Laura Stegner](https://www.laurastegner.com/), CS Graduate Student
+[Bengisu Cagiltay](https://bengisucagiltay.github.io/), CS Graduate Student
+[Nathan White](https://nathantwhite.com/), CS Graduate Student
+[Christine Lee](https://christineplee.github.io/), CS Graduate Student
+[Amy Koike](https://amykoike.notion.site/amykoike/Amy-Koike-s-Portfolio-25f2b3e0429e498183aa739b193fda01), CS Graduate Student
+[Yaxin Hu](https://www.edayaxin.com/about), CS Graduate Student
+[Dakota Sullivan](https://dakotasullivan.github.io/), CS Graduate Student
+[Hailey Johnson](https://haileyljohnson.github.io/), CS Graduate Student
+[Callie Kim](https://callie-kim.com/), CS Graduate Student
+[Yuna Hwang](https://yunahwang.github.io/), CS Graduate Student
+[Michael Xu](http://www.michaelfxu.com/), CS Graduate Student
+[Irene Ho](https://edpsych.education.wisc.edu/staff/ho-hui-ru/), Ed Psych Graduate Student
+[Leo Cui](https://wid.wisc.edu/people/leo-cui/), CS Graduate Student
+
+### Past Advisees
+[Emmanuel Senft](https://emmanuel-senft.github.io/), Postdoctoral Advisee, Idiap Research Institute
+[Hajin Lim](https://www.hajinlim.com/), Postdoctoral Advisee, Seoul National University
+[Andrew Schoen](https://andrewjschoen.github.io/), PhD Advisee, Semio
+[Pragathi Praveena](https://pragathipraveena.com/), PhD Advisee, Carnegie Mellon University
+[Danny Rakita](https://dannyrakita.net/), PhD Advisee, Yale University
+[Mike Hagenow](https://www.hageneaux.com/), Informal Advisee, MIT CSAIL
+[Olivia Zhao](https://www.olivia-zhao.com/), PhD Advisee, META
+[David Porfirio](https://dporfirio.github.io/), PhD Advisee, U.S. Naval Research Laboratory
+[Sean Andrist](https://seanandrist.com/), PhD Advisee, Microsoft Research
+[Joseph Michaelis](https://jmich.people.uic.edu/), PhD Advisee, University of Illinois Chicago
+[Tomislav Pejsa](https://www.linkedin.com/in/tomislav-pejsa/), PhD Advisee, Meta
+[Chien-Ming Huang](https://www.cs.jhu.edu/~cmhuang/), PhD Advisee, Johns Hopkins University
+[Daniel Szafir](https://www.danszafir.com/), PhD Advisee, University of North Carolina Chapel Hill
+[Allison Sauppé](https://cs.uwlax.edu/~asauppe/), PhD Advisee, University of Wisconsin–La Crosse
+[Irene Rae](https://www.linkedin.com/in/irenerae/), PhD Advisee, Google, Inc.
+[Shadeequa Miller](https://www.linkedin.com/in/sdeemiller/), PhD Advisee, Visa
+[Kevin Welsh](https://www.linkedin.com/in/kevin-welsh-668140bb), MS Advisee, Los Alamos National Labs
+[Curt Henrichs](https://www.linkedin.com/in/curt-henrichs/), MS Advisee, Integrated Dynamic Electron Solutions, Inc.
+[Margaret Pearce](https://www.linkedin.com/in/margaretpearce/), MS Advisee, Deepfield
+[Steven Johnson](https://www.linkedin.com/in/steven-johnson-590274ba/), MS Advisee, Google, Inc.
+[Christopher Bodden](https://dblp.org/pid/190/3029.html), MS Advisee, Software Engineer
+[Faisal Khan](https://www.linkedin.com/in/faisalkhan83/), MS Advisee, Argonne National Lab
+[Erica (Lewis) Martin](https://www.linkedin.com/in/erica-martin-lewis-866080a5/), BS Advisee, Microsoft
+Nathalie Cheng, BS Advisee, Exygy
+[Jonathan Mumm](https://www.linkedin.com/in/jonathanrmumm/), BS Advisee, hims & hers
+[Zhi Tan](https://www.khoury.northeastern.edu/people/zhi-tan/), BS Advisee, Northeastern University
