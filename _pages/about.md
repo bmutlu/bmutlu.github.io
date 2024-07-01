@@ -16,7 +16,7 @@ I am also the director of the [INTEGRATE](https://integrate.wisc.edu) NSF Resear
 
 If you are interested in joining the [People and Robots Lab](http://peopleandrobots.wisc.edu), please read [this page](/joining).
 
-<strong><a href="https://drive.google.com/file/d/1kUfT6oVzvvA9h_ecF9q1TNKeIlGhBEOH/view?usp=sharing" target="_blank">Download my CV</a></strong> — _Updated: May 2024_
+<strong><a href="https://drive.google.com/file/d/1kZTBYSQD8kDWCc3xCE8sdRgmK28cthJl/view?usp=sharing" target="_blank">Download my CV</a></strong> — _Updated: May 2024_
 
 ## Research
 
