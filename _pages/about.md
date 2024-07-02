@@ -58,14 +58,26 @@ tr.border-bottom {
 
 <table>
     <tr>
+      <td class="style24" style="width: 400px">
+        <div id='outerdiv' style="width: 400px; overflow-x:hidden;">
+          <iframe src="https://www.youtube.com/embed/mkq3Zn3tVvc?si=xJSOsx50AVAyqJv-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+      </td>
+      <td class="style24" style="width: 400px">
+            <div id='outerdiv' style="width: 400px; overflow-x:hidden;">
+                <iframe src="https://www.youtube.com/embed/videoseries?list=PLaIgLiq4gIuaA60oLfWalDrM91oA75mO-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </td>
+    </tr>
+    <tr>
+    <td class="style24" style="width: 400px">
+        <div id='outerdiv' style="width: 400px; overflow-x:hidden;">
+          <iframe src="https://www.youtube.com/embed/w2gu54f4tIU?si=7EQwdugrtbXKqFvP&amp;start=610" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+      </td>
         <td class="style24" style="width: 400px">
             <div id='outerdiv' style="width: 400px; overflow-x:hidden;">
                 <iframe src="https://www.youtube.com/embed/videoseries?list=PLaIgLiq4gIuZykeHKBJFIYl4VZZ2PcZQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </td>
-        <td class="style24" style="width: 400px">
-            <div id='outerdiv' style="width: 400px; overflow-x:hidden;">
-                <iframe src="https://www.youtube.com/embed/videoseries?list=PLaIgLiq4gIuaA60oLfWalDrM91oA75mO-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </td>
     </tr>
