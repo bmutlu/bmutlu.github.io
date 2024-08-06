@@ -18,6 +18,8 @@ If you are interested in joining the [People and Robots Lab](http://peopleandrob
 
 <strong><a href="https://drive.google.com/file/d/1kZTBYSQD8kDWCc3xCE8sdRgmK28cthJl/view?usp=sharing" target="_blank">Download my CV</a></strong> — _Updated: May 2024_
 
+$${\color{Orangered}In the 2024–2025 Academic Year, I will be on sabbatical. In this period, communication may be slow, and I am unable accept requests for review or meeting requests beyond my students and collaborators. Thank you for understanding!}$$
+
 ## Research
 
 My research in [human-robot interaction (HRI)](https://en.wikipedia.org/wiki/Human–robot_interaction) builds human-centered principles and methods to enable effective and intuitive interactions between people and robotic technologies and facilitate the successful integration of these technologies into human environments. Below are highlights from ongoing projects in the [People and Robots Lab](http://peopleandrobots.wisc.edu/).
