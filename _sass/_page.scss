@@ -2,6 +2,10 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+highlight {
+      color: #C5050C;
+    }
+
 #main {
   @include container;
   @include clearfix;
