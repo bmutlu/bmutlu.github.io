@@ -8,17 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am *Sheldon B. and Marianne S. Lubar Professor* of [Computer Science](http://cs.wisc.edu/), [Psychology](http://psych.wisc.edu/), and [Industrial Engineering](http://www.engr.wisc.edu/isye.html) at the [University of Wisconsin–Madison](http://wisc.edu/) and the director of the [People and Robots Laboratory](http://peopleandrobots.wisc.edu/). I received my PhD degree from [Carnegie Mellon University](http://cmu.edu/)‘s [Human-Computer Interaction Institute](http://hcii.cs.cmu.edu/) in 2009.
+I am *Sheldon B. and Marianne S. Lubar Professor* of [Computer Science](http://cs.wisc.edu/), [Psychology](http://psych.wisc.edu/), and [Industrial Engineering](http://www.engr.wisc.edu/isye.html) at the [University of Wisconsin–Madison](http://wisc.edu/), at Discovery Fellow at the [Wisconsin Institute for Discovery](https://wid.wisc.edu/) and the director of the [People and Robots Laboratory](http://peopleandrobots.wisc.edu/). I received my PhD degree from [Carnegie Mellon University](http://cmu.edu/)‘s [Human-Computer Interaction Institute](http://hcii.cs.cmu.edu/) in 2009.
 
-I am the chief editor of the [HRI section of the journal Frontiers in Robotics & AI](https://www.frontiersin.org/journals/robotics-and-ai/sections/human-robot-interaction#). If you are an HRI researcher interested in publishing in a rigorous, open-access venue, please submit! I am also an associated editor of [Human-Computer Interaction](https://www.tandfonline.com/toc/hhci20/current) and [Foundations and Trends® in Human-Computer Interaction](https://www.nowpublishers.com/HCI). I am also the secretary-treasurer of the [HCI Consortium](http://hcic.org/).
+I served as the founding chief editor of the [HRI section of the journal Frontiers in Robotics & AI](https://www.frontiersin.org/journals/robotics-and-ai/sections/human-robot-interaction#). If you are an HRI researcher interested in publishing in a rigorous, open-access venue, please submit! I also serve as an associated editor at [Human-Computer Interaction](https://www.tandfonline.com/toc/hhci20/current) and [Foundations and Trends® in Human-Computer Interaction](https://www.nowpublishers.com/HCI) and the secretary-treasurer of the [HCI Consortium](http://hcic.org/).
 
-I am also the director of the [INTEGRATE](https://integrate.wisc.edu) NSF Research Traineeship program, a new interdisciplinary program designed to enrich the training of graduate student on the technical and societal facets of introducing robots into work environments. UW students from any graduate program can apply and join the [INTEGRATE Community](https://integrate.wisc.edu/seminars/)!
+I am the director of the [INTEGRATE](https://integrate.wisc.edu) NSF Research Traineeship program, a new interdisciplinary program designed to enrich the training of graduate student on the technical and societal facets of introducing robots into work environments. UW students from any graduate program can apply and join the [INTEGRATE Community](https://integrate.wisc.edu/seminars/)!
 
 If you are interested in joining the [People and Robots Lab](http://peopleandrobots.wisc.edu), please read [this page](/joining).
 
 <strong><a href="https://drive.google.com/file/d/1kZTBYSQD8kDWCc3xCE8sdRgmK28cthJl/view?usp=sharing" target="_blank">Download my CV</a></strong> — _Updated: May 2024_
 
-<code style="color : Orangered">In the 2024–2025 Academic Year, I will be on sabbatical. In this period, communication may be slow, and I am unable accept requests for review or meeting requests beyond my students and collaborators. Thank you for understanding!</code>
+<text color=red>In the 2024–2025 Academic Year, I will be on sabbatical. In this period, communication may be slow, and I am unable accept requests for review or meeting requests beyond my students and collaborators. Thank you for understanding!</text>
 
 ## Research
 
