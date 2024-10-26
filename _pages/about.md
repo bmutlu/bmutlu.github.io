@@ -18,7 +18,7 @@ If you are interested in joining the [People and Robots Lab](http://peopleandrob
 
 <strong><a href="https://drive.google.com/file/d/10dYMhbmAQqMcagQlS8GAHVbamjY6_P8P/view?usp=sharing" target="_blank">Download my CV</a></strong> — _Updated: August 2024_
 
-<text color=red>In the 2024–2025 Academic Year, I will be on sabbatical. In this period, communication may be slow, and I am unable accept requests for review or meeting requests beyond my students and collaborators. Thank you for understanding!</text>
+<highlight>In the 2024–2025 Academic Year, I will be on sabbatical. In this period, communication may be slow, and I am unable accept requests for review or meeting requests beyond my students and collaborators. Thank you for understanding!</highlight>
 
 ## Research
 
