@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilge Mutlu — University of Wisconsin–Madison</title>
+  <meta name="description" content="Bilge Mutlu is the Sheldon B. and Marianne S. Lubar Professor of Computer Science at UW–Madison and director of the People and Robots Laboratory.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================================
+       CSS VARIABLES — Edit these to change the site's look & feel
+       ============================================================ */
+    :root {
+      --color-bg: #faf8f5;
+      --color-bg-alt: #f1ede7;
+      --color-text: #2d2a26;
+      --color-text-secondary: #6b6560;
+      --color-accent: #1a6b5a;
+      --color-accent-light: #e8f2ef;
+      --color-accent-hover: #145649;
+      --color-border: #e0dbd5;
+      --color-white: #ffffff;
+      --font-display: 'DM Serif Display', Georgia, serif;
+      --font-body: 'Source Sans 3', -apple-system, sans-serif;
+      --max-width: 960px;
+      --nav-height: 64px;
+    }
+
+    /* ============================================================
+       RESET & BASE
+       ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--nav-height) + 24px);
+    }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--color-text);
+      background: var(--color-bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--color-accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+
+    img { max-width: 100%; display: block; }
+
+    /* ============================================================
+       NAVIGATION
+       ============================================================ */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(250, 248, 245, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+      height: var(--nav-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-inner {
+      max-width: var(--max-width);
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-name {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      color: var(--color-text);
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+    .nav-name:hover { color: var(--color-accent); text-decoration: none; }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--color-accent); text-decoration: none; }
+
+    .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-toggle svg { width: 24px; height: 24px; stroke: var(--color-text); }
+
+    /* ============================================================
+       LAYOUT
+       ============================================================ */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    section + section {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .section-label {
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 1.25;
+      margin-bottom: 32px;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: 1.35;
+      margin-bottom: 8px;
+    }
+
+    /* ============================================================
+       HERO / ABOUT SECTION
+       ============================================================ */
+    .hero {
+      padding: 100px 0 80px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .hero-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--color-white);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+
+    .hero-content h1 {
+      font-family: var(--font-display);
+      font-size: 2.8rem;
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .hero-title {
+      font-size: 1.1rem;
+      color: var(--color-accent);
+      font-weight: 400;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    .hero-bio {
+      font-size: 1.05rem;
+      color: var(--color-text-secondary);
+      max-width: 640px;
+      margin-bottom: 28px;
+    }
+
+    .hero-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--color-accent);
+      color: var(--color-white);
+    }
+    .btn-primary:hover {
+      background: var(--color-accent-hover);
+      color: var(--color-white);
+      text-decoration: none;
+    }
+
+    .btn-outline {
+      border: 1.5px solid var(--color-border);
+      color: var(--color-text);
+      background: var(--color-white);
+    }
+    .btn-outline:hover {
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    /* ============================================================
+       RESEARCH SECTION
+       ============================================================ */
+    .research-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .research-card {
+      background: var(--color-white);
+      border: 1px solid var(--color-border);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .research-card:hover {
+      border-color: var(--color-accent);
+      box-shadow: 0 2px 16px rgba(26, 107, 90, 0.06);
+    }
+
+    .research-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      filter: grayscale(100%) opacity(0.7);
+      transition: filter 0.4s ease;
+    }
+    .research-card:hover img {
+      filter: grayscale(0%) opacity(1);
+    }
+
+    .research-card-body {
+      padding: 28px 32px 32px;
+    }
+
+    .research-card h3 {
+      margin-bottom: 12px;
+    }
+
+    .research-card p {
+      color: var(--color-text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.65;
+    }
+
+    .research-intro {
+      font-size: 1.05rem;
+      color: var(--color-text-secondary);
+      margin-bottom: 32px;
+      max-width: 720px;
+    }
+
+    /* ============================================================
+       TEACHING SECTION
+       ============================================================ */
+    .teaching-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .teaching-item {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 20px;
+      align-items: start;
+      padding: 24px;
+      background: var(--color-white);
+      border: 1px solid var(--color-border);
+      border-radius: 10px;
+    }
+
+    .teaching-code {
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--color-accent);
+      letter-spacing: 0.02em;
+      padding-top: 2px;
+    }
+
+    .teaching-item h3 { margin-bottom: 4px; }
+
+    .teaching-meta {
+      font-size: 0.9rem;
+      color: var(--color-text-secondary);
+    }
+
+    /* ============================================================
+       ADVISING SECTION
+       ============================================================ */
+    .advising-group + .advising-group { margin-top: 48px; }
+
+    .advising-group h3 {
+      font-size: 1.1rem;
+      font-family: var(--font-body);
+      font-weight: 600;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .advisee-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 32px;
+    }
+
+    .advisee {
+      padding: 6px 0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .advisee-role {
+      color: var(--color-text-secondary);
+      font-size: 0.85rem;
+    }
+
+    .advisee-position {
+      color: var(--color-text-secondary);
+      font-size: 0.82rem;
+      font-style: italic;
+    }
+
+    /* ============================================================
+       AWARDS SECTION
+       ============================================================ */
+    .awards-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    .awards-col h3 {
+      font-size: 1.1rem;
+      font-family: var(--font-body);
+      font-weight: 600;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .award-item {
+      margin-bottom: 20px;
+    }
+
+    .award-year {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--color-accent);
+      letter-spacing: 0.05em;
+      margin-bottom: 2px;
+    }
+
+    .award-name {
+      font-weight: 600;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .award-org {
+      font-size: 0.88rem;
+      color: var(--color-text-secondary);
+    }
+
+    .award-note {
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      font-style: italic;
+      margin-top: 2px;
+    }
+
+    .paper-awards-summary {
+      font-size: 0.95rem;
+      color: var(--color-text-secondary);
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+    .paper-award {
+      margin-bottom: 16px;
+      padding-left: 16px;
+      border-left: 2px solid var(--color-border);
+    }
+
+    .paper-award .award-name {
+      font-size: 0.9rem;
+    }
+
+    .paper-award .award-org {
+      font-size: 0.82rem;
+    }
+
+    .paper-award .award-citation {
+      font-size: 0.82rem;
+      color: var(--color-text-secondary);
+      margin-top: 2px;
+    }
+
+    /* ============================================================
+       FOOTER
+       ============================================================ */
+    footer {
+      border-top: 1px solid var(--color-border);
+      padding: 40px 0;
+      text-align: center;
+      color: var(--color-text-secondary);
+      font-size: 0.88rem;
+    }
+
+    footer a { color: var(--color-text-secondary); }
+    footer a:hover { color: var(--color-accent); }
+
+    /* ============================================================
+       SCROLL ANIMATIONS
+       ============================================================ */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ============================================================
+       RESPONSIVE
+       ============================================================ */
+    @media (max-width: 768px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .hero-photo {
+        margin: 0 auto;
+        width: 160px;
+        height: 160px;
+      }
+      .hero-content h1 { font-size: 2rem; }
+      .hero-bio { margin-left: auto; margin-right: auto; }
+      .hero-links { justify-content: center; }
+
+      .research-grid { grid-template-columns: 1fr; }
+      .teaching-item { grid-template-columns: 1fr; }
+      .teaching-code { padding-top: 0; }
+      .advisee-grid { grid-template-columns: 1fr; }
+      .awards-columns { grid-template-columns: 1fr; gap: 32px; }
+
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: var(--nav-height);
+        left: 0;
+        right: 0;
+        background: var(--color-bg);
+        border-bottom: 1px solid var(--color-border);
+        padding: 16px 24px;
+        gap: 16px;
+      }
+      .nav-toggle { display: block; }
+
+      section { padding: 56px 0; }
+      h2 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       Edit: Update nav links if you add/remove sections
+       ============================================================ -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#" class="nav-name">Bilge Mutlu</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <svg fill="none" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#advising">Advising</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="files/Mutlu-Full-CV-Feb-2026.pdf" target="_blank">CV</a></li>
+        <li><a href="http://peopleandrobots.wisc.edu/" target="_blank">Lab</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- ============================================================
+         HERO / ABOUT
+         Edit: Update bio, title, links, and photo as needed
+         ============================================================ -->
+    <section class="hero" id="about">
+      <div class="hero-grid">
+        <img src="images/Mutlu_Bilge_hs21_1829-square.jpg" alt="Bilge Mutlu" class="hero-photo">
+        <div class="hero-content">
+          <h1>Bilge Mutlu</h1>
+          <div class="hero-title">
+            <em>Sheldon B. and Marianne S. Lubar</em> Professor of<br>
+            Computer Science, Psychology &amp; Industrial Engineering<br>
+            University of Wisconsin–Madison
+          </div>
+          <p class="hero-bio">
+            I am a Discovery Fellow at the <a href="https://wid.wisc.edu/">Wisconsin Institute for Discovery</a>,
+            director of the <a href="http://peopleandrobots.wisc.edu/">People and Robots Laboratory</a>,
+            and director of the NSF Research Traineeship program <a href="https://integrate.wisc.edu/">INTEGRATE</a>.
+            My research in human-robot interaction builds human-centered principles and methods
+            to enable effective, intuitive interactions between people and robotic technologies.
+            I received my PhD from <a href="http://hcii.cs.cmu.edu/">Carnegie Mellon University's HCII</a> in 2009.
+          </p>
+          <p class="hero-bio" style="margin-top: 0;">
+            Interested in shaping the future of embodied AI? Ask me about <strong>IDEA</strong>!
+          </p>
+          <div class="hero-links">
+            <a href="files/Mutlu-Full-CV-Feb-2026.pdf" class="btn btn-primary" target="_blank">
+              Download CV
+            </a>
+            <a href="https://scholar.google.com/citations?user=VGr54BoAAAAJ&hl=en" class="btn btn-outline" target="_blank">
+              Google Scholar
+            </a>
+            <a href="https://www.linkedin.com/in/bilge-mutlu-a2aab8286" class="btn btn-outline" target="_blank">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         RESEARCH
+         Edit: Update card titles and descriptions
+         ============================================================ -->
+    <section id="research" class="fade-in">
+      <div class="section-label">Research</div>
+      <h2>Building better human-robot interactions</h2>
+      <p class="research-intro">
+        My research takes a design-led approach to
+        <a href="https://en.wikipedia.org/wiki/Human%E2%80%93robot_interaction">human-robot interaction (HRI)</a>,
+        building human-centered principles, methods, and tools that enable effective, intuitive
+        interactions between people and robotic technologies and facilitate the successful
+        integration of these technologies into human environments. Highlights from the
+        <a href="http://peopleandrobots.wisc.edu/">People and Robots Lab</a>:
+      </p>
+      <div class="research-grid">
+
+        <div class="research-card">
+          <img src="images/in-the-wild.jpg" alt="Embodied AI in the Wild">
+          <div class="research-card-body">
+            <h3>Embodied AI in the Wild</h3>
+            <p>
+              Exploring how people interact with robots and AI in the physical world,
+              including long-term human-robot interaction in homes, privacy challenges
+              in complex domestic environments, and supporting learning and education
+              through social agents.
+            </p>
+          </div>
+        </div>
+
+        <div class="research-card">
+          <img src="images/human-robot-collab.jpg" alt="Human-Robot Collaboration">
+          <div class="research-card-body">
+            <h3>Human-Robot Collaboration</h3>
+            <p>
+              Building human-in-the-loop interfaces for robots that augment human
+              capabilities while retaining human expertise, autonomy, and trust, along
+              with natural-language-based interfaces and programming tools for
+              collaborative robotics.
+            </p>
+          </div>
+        </div>
+
+        <div class="research-card">
+          <img src="images/design-tools.jpg" alt="HRI Design Tools">
+          <div class="research-card-body">
+            <h3>HRI Design Tools</h3>
+            <p>
+              Building a suite of tools to support the unique and complex task of designing
+              robotics applications for human use, integrating large language models and
+              formal methods in collaboration with researchers in programming languages.
+            </p>
+          </div>
+        </div>
+
+        <div class="research-card">
+          <img src="images/assistive.jpg" alt="Accessible Embodied AI">
+          <div class="research-card-body">
+            <h3>Accessible Embodied AI</h3>
+            <p>
+              Developing care robotics that empowers both caregivers and care recipients,
+              research on human-AI and human-robot interaction for people with Down syndrome,
+              and collaborative work supporting the participation of older adults and people
+              who are blind or have low vision in the broader social and physical world.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TEACHING
+         Edit: Add/remove courses, update years and descriptions
+         ============================================================ -->
+    <section id="teaching" class="fade-in">
+      <div class="section-label">Teaching</div>
+      <h2>Courses</h2>
+      <div class="teaching-list">
+
+        <div class="teaching-item">
+          <div class="teaching-code">CS 639</div>
+          <div>
+            <h3><a href="https://wisc-hci.github.io/cs639-s26/">Interaction Design Studio</a></h3>
+            <p class="teaching-meta">Undergraduate Course · Department of Computer Sciences · Spring 2026</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-code">CS 839</div>
+          <div>
+            <h3><a href="https://wisc-hci.github.io/cs839-s23/">Building Interactive Systems</a></h3>
+            <p class="teaching-meta">Graduate Course · Department of Computer Sciences · Spring 2023</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-code">CS/Psych/<wbr>EdPsych 770</div>
+          <div>
+            <h3><a href="https://cs770.github.io/Fall25/">HCI Research Methods</a></h3>
+            <p class="teaching-meta">Graduate Course · Department of Computer Sciences · Fall 2025</p>
+          </div>
+        </div>
+
+        <div class="teaching-item">
+          <div class="teaching-code">CS 571</div>
+          <div>
+            <h3><a href="https://wisc-hci-curriculum.github.io/cs639-f20/">Building User Interfaces</a></h3>
+            <p class="teaching-meta">Undergraduate Course · Department of Computer Sciences · Fall 2020</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ADVISING
+         Edit: Move people between Current/Past, add new advisees,
+               update links and positions
+         ============================================================ -->
+    <section id="advising" class="fade-in">
+      <div class="section-label">Advising</div>
+      <h2>People</h2>
+
+      <!-- CURRENT ADVISEES -->
+      <div class="advising-group">
+        <h3>Current Advisees</h3>
+        <div class="advisee-grid">
+          <div class="advisee">Tugce Nur Pekcetin <span class="advisee-role">· Postdoctoral Researcher</span></div>
+          <div class="advisee">Serena Ge Guo <span class="advisee-role">· Postdoctoral Researcher</span></div>
+          <div class="advisee">Heidi Spalitta <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee">Xinyu Jessica Wang <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee">Xinning He <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="http://www.michaelfxu.com/">Michael Xu</a> <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="https://yunahwang.github.io/">Yuna Hwang</a> <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="https://haileyljohnson.github.io/">Hailey Johnson</a> <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="https://amykoike.notion.site/amykoike/Amy-Koike-s-Portfolio-25f2b3e0429e498183aa739b193fda01">Amy Koike</a> <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="https://callie-kim.com/">Callie Kim</a> <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="https://christineplee.github.io/">Christine Lee</a> <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="https://dakotasullivan.github.io/">Dakota Sullivan</a> <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="https://www.edayaxin.com/about">Yaxin Hu</a> <span class="advisee-role">· CS Graduate Student</span></div>
+          <div class="advisee"><a href="https://edpsych.education.wisc.edu/staff/ho-hui-ru/">Irene Ho</a> <span class="advisee-role">· Ed Psych Graduate Student</span></div>
+        </div>
+      </div>
+
+      <!-- PAST ADVISEES -->
+      <div class="advising-group">
+        <h3>Past Advisees</h3>
+        <div class="advisee-grid">
+          <div class="advisee"><a href="https://arissasato.com">Arissa Sato</a> <span class="advisee-role">· Postdoc</span></div>
+          <div class="advisee"><a href="https://www.linkedin.com/in/sophie-wohltjen-9b12b351">Sophie Wohltjen</a> <span class="advisee-role">· Postdoc</span> <span class="advisee-position">→ University of Tennessee</span></div>
+          <div class="advisee"><a href="https://www.hajinlim.com/">Hajin Lim</a> <span class="advisee-role">· Postdoc</span> <span class="advisee-position">→ Seoul National University</span></div>
+          <div class="advisee"><a href="https://emmanuel-senft.github.io/">Emmanuel Senft</a> <span class="advisee-role">· Postdoc</span> <span class="advisee-position">→ Idiap Research Institute</span></div>
+          <div class="advisee"><a href="https://bengisucagiltay.github.io/">Bengisu Cagiltay</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Koc University</span></div>
+          <div class="advisee"><a href="https://www.laurastegner.com/">Laura Stegner</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ George Washington University</span></div>
+          <div class="advisee"><a href="https://nathantwhite.com/">Nathan White</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Intrinsic</span></div>
+          <div class="advisee"><a href="https://www.olivia-zhao.com/">Olivia Zhao</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Apple</span></div>
+          <div class="advisee"><a href="https://andrewjschoen.github.io/">Andrew Schoen</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Semio</span></div>
+          <div class="advisee"><a href="https://dporfirio.github.io/">David Porfirio</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ George Mason University</span></div>
+          <div class="advisee"><a href="https://pragathipraveena.com/">Pragathi Praveena</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Carnegie Mellon University</span></div>
+          <div class="advisee"><a href="https://dannyrakita.net/">Danny Rakita</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Yale University</span></div>
+          <div class="advisee"><a href="https://jmich.people.uic.edu/">Joseph Michaelis</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Univ. of Illinois Chicago</span></div>
+          <div class="advisee"><a href="https://seanandrist.com/">Sean Andrist</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Microsoft Research</span></div>
+          <div class="advisee"><a href="https://www.linkedin.com/in/tomislav-pejsa/">Tomislav Pejsa</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Meta</span></div>
+          <div class="advisee"><a href="https://www.cs.jhu.edu/~cmhuang/">Chien-Ming Huang</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Johns Hopkins University</span></div>
+          <div class="advisee"><a href="https://www.danszafir.com/">Daniel Szafir</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ UNC Chapel Hill</span></div>
+          <div class="advisee"><a href="https://cs.uwlax.edu/~asauppe/">Allison Sauppé</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ UW–La Crosse</span></div>
+          <div class="advisee"><a href="https://www.linkedin.com/in/irenerae/">Irene Rae</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Google</span></div>
+          <div class="advisee"><a href="https://www.linkedin.com/in/sdeemiller/">Dee Miller</a> <span class="advisee-role">· PhD</span> <span class="advisee-position">→ Adobe</span></div>
+        </div>
+      </div>
+
+      <p style="margin-top: 32px; color: var(--color-text-secondary); font-size: 0.95rem;">
+        Interested in joining the <a href="http://peopleandrobots.wisc.edu/">People and Robots Lab</a>?
+        Please read <a href="https://bmutlu.github.io/joining">this page</a>.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         AWARDS
+         Edit: Add new recognitions or paper awards
+         ============================================================ -->
+    <section id="awards" class="fade-in">
+      <div class="section-label">Awards</div>
+      <h2>Recognitions &amp; Paper Awards</h2>
+
+      <div class="awards-columns">
+
+        <!-- RECOGNITIONS -->
+        <div class="awards-col">
+          <h3>Recognitions</h3>
+
+          <div class="award-item">
+            <div class="award-year">2025</div>
+            <div class="award-name">Excellence in Honors Thesis Advising Award</div>
+            <div class="award-org">L&amp;S Honors Program, UW–Madison</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-year">2022</div>
+            <div class="award-name">Vilas Associates Award</div>
+            <div class="award-org">University of Wisconsin–Madison</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-year">2021</div>
+            <div class="award-name">H.I. Romnes Faculty Fellowship</div>
+            <div class="award-org">University of Wisconsin–Madison</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-name">Lubar Professorship</div>
+            <div class="award-org">Department of Computer Sciences, UW–Madison</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-year">2020</div>
+            <div class="award-name">Provost's Early Career Award</div>
+            <div class="award-org">University of Wisconsin–Madison</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-year">2013</div>
+            <div class="award-name">Allen Newell Award for Research Excellence</div>
+            <div class="award-org">Carnegie Mellon University</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-year">2012</div>
+            <div class="award-name">NSF CAREER Award</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-year">2010</div>
+            <div class="award-name">World Technology Network Fellow Finalist</div>
+            <div class="award-org">WTN Award in IT Hardware</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-year">2002</div>
+            <div class="award-name">Fulbright Fellowship</div>
+            <div class="award-org">U.S. Department of State</div>
+          </div>
+
+          <div class="award-item">
+            <div class="award-year">1999</div>
+            <div class="award-name">Summa Cum Laude</div>
+            <div class="award-org">Middle East Technical University</div>
+          </div>
+        </div>
+
+        <!-- PAPER AWARDS -->
+        <div class="awards-col">
+          <h3>Selected Paper Awards</h3>
+          <p class="paper-awards-summary">
+            Our work has received nearly 30 awards and nominations, including
+            1 ten-year impact award, 11 best paper awards, 7 honorable mentions,
+            and 3 poster awards.
+          </p>
+
+          <div class="paper-award">
+            <div class="award-year">2025</div>
+            <div class="award-name">Best Technical Paper — HRI 2025</div>
+            <div class="award-citation">Mahadevan, White, &amp; Mutlu</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2024</div>
+            <div class="award-name">Best Design Paper — HRI 2024</div>
+            <div class="award-citation">Koike, Wehner, &amp; Mutlu: Sprout</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2023</div>
+            <div class="award-name">10-Year Impact Award — UbiComp</div>
+            <div class="award-citation">Hoque, Courgeon, Martin, Mutlu, &amp; Picard: MACH</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-name">Best Systems Paper — HRI 2023</div>
+            <div class="award-citation">Schoen, Sullivan, Zhang, Rakita, &amp; Mutlu: Lively</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2022</div>
+            <div class="award-name">Best Short Paper — IDC 2022</div>
+            <div class="award-citation">Cagiltay, Michaelis, &amp; Mutlu</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2018</div>
+            <div class="award-name">Best Paper — UIST 2018</div>
+            <div class="award-citation">Porfirio, Sauppé, Albarghouti, &amp; Mutlu</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-name">Best Paper — HRI 2018</div>
+            <div class="award-citation">Rakita, Mutlu, &amp; Gleicher</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2015</div>
+            <div class="award-name">Best Paper — CHI 2015</div>
+            <div class="award-citation">Sauppé &amp; Mutlu</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2013</div>
+            <div class="award-name">Best Paper — UbiComp 2013</div>
+            <div class="award-citation">Hoque, Courgeon, Martin, Mutlu, &amp; Picard: MACH</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2011</div>
+            <div class="award-name">Best Paper — HRI 2011</div>
+            <div class="award-citation">Mumm &amp; Mutlu</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2009</div>
+            <div class="award-name">Best Paper — HRI 2009</div>
+            <div class="award-citation">Mutlu, Shiwa, Kanda, Ishiguro, &amp; Hagita</div>
+          </div>
+
+          <div class="paper-award">
+            <div class="award-year">2008</div>
+            <div class="award-name">Best Paper — HRI 2008</div>
+            <div class="award-citation">Mutlu &amp; Forlizzi</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <div class="container">
+      &copy; 2025 Bilge Mutlu · 
+      <a href="https://scholar.google.com/citations?user=VGr54BoAAAAJ&hl=en">Google Scholar</a> · 
+      <a href="https://www.linkedin.com/in/bilge-mutlu-a2aab8286">LinkedIn</a> · 
+      <a href="http://peopleandrobots.wisc.edu/">People &amp; Robots Lab</a>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       SCRIPTS — Scroll-triggered fade-in animations
+       ============================================================ -->
+  <script>
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Close mobile nav on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
