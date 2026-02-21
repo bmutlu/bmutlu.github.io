@@ -235,6 +235,40 @@
       gap: 12px;
     }
 
+    .tooltip {
+      position: relative;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1.5px dotted var(--color-accent);
+      cursor: help;
+    }
+    .tooltip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--color-text);
+      color: var(--color-bg);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 400;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+    .tooltip:hover::after {
+      opacity: 1;
+    }
+
+    .btn svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
     .btn {
       display: inline-flex;
       align-items: center;
@@ -275,6 +309,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 24px;
+      align-items: start;
     }
 
     .research-card {
@@ -283,6 +318,7 @@
       border-radius: 10px;
       overflow: hidden;
       transition: border-color 0.2s, box-shadow 0.2s;
+      cursor: pointer;
     }
     .research-card:hover {
       border-color: var(--color-accent);
@@ -322,23 +358,106 @@
     }
 
     /* ============================================================
-       TEACHING SECTION
+       RESEARCH PANELS (slide-down)
        ============================================================ */
-    .teaching-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
+    .research-card.active {
+      border-color: var(--color-accent);
+      box-shadow: 0 2px 16px rgba(26, 107, 90, 0.08);
+    }
+    .research-card.active img {
+      filter: grayscale(0%) opacity(1);
     }
 
-    .teaching-item {
-      display: grid;
-      grid-template-columns: 120px 1fr;
-      gap: 20px;
-      align-items: start;
-      padding: 24px;
+    .panel-detail {
+      grid-column: 1 / -1;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease, opacity 0.4s ease;
+      opacity: 0;
+    }
+    .panel-detail.open {
+      max-height: 600px;
+      opacity: 1;
+    }
+    .panel-detail-inner {
       background: var(--color-white);
       border: 1px solid var(--color-border);
       border-radius: 10px;
+      padding: 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+    .panel-detail h4 {
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 12px;
+    }
+    .panel-detail p {
+      color: var(--color-text-secondary);
+      font-size: 0.92rem;
+      line-height: 1.65;
+      margin-bottom: 12px;
+    }
+    .paper-list {
+      list-style: none;
+      padding: 0;
+    }
+    .paper-list li {
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      padding: 8px 0;
+      border-bottom: 1px solid var(--color-border);
+      line-height: 1.5;
+    }
+    .paper-list li:last-child { border-bottom: none; }
+    .paper-venue {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--color-accent);
+    }
+    .paper-venue a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .paper-venue a:hover {
+      text-decoration: underline;
+    }
+    .paper-award-badge {
+      font-size: 0.75rem;
+      display: inline-block;
+      margin-left: 4px;
+    }
+
+    @media (max-width: 768px) {
+      .panel-detail-inner {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 24px;
+      }
+    }
+
+    /* ============================================================
+       TEACHING SECTION
+       ============================================================ */
+    .teaching-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .teaching-card {
+      padding: 28px;
+      background: var(--color-white);
+      border: 1px solid var(--color-border);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
 
     .teaching-code {
@@ -347,14 +466,28 @@
       font-weight: 600;
       color: var(--color-accent);
       letter-spacing: 0.02em;
-      padding-top: 2px;
     }
 
-    .teaching-item h3 { margin-bottom: 4px; }
+    .teaching-card h3 { margin-bottom: 0; }
 
     .teaching-meta {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: var(--color-text-secondary);
+      line-height: 1.4;
+    }
+
+    .teaching-level {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: color-mix(in srgb, var(--color-accent) 12%, transparent);
+      color: var(--color-accent);
+      margin-top: 4px;
+      width: fit-content;
     }
 
     /* ============================================================
@@ -514,8 +647,7 @@
       .hero-links { justify-content: center; }
 
       .research-grid { grid-template-columns: 1fr; }
-      .teaching-item { grid-template-columns: 1fr; }
-      .teaching-code { padding-top: 0; }
+      .teaching-grid { grid-template-columns: 1fr; }
       .advisee-grid { grid-template-columns: 1fr; }
       .awards-columns { grid-template-columns: 1fr; gap: 32px; }
 
@@ -593,17 +725,24 @@
             I received my PhD from <a href="http://hcii.cs.cmu.edu/">Carnegie Mellon University's HCII</a> in 2009.
           </p>
           <p class="hero-bio" style="margin-top: 0;">
-            Interested in shaping the future of embodied AI? Ask me about <strong>IDEA</strong>!
+            If you are a UW faculty member, staff, or student interested in shaping the future of embodied AI, let's talk about <span class="tooltip" data-tip="Institute for Design &amp; Embodied AI">IDEA</span>.
           </p>
           <div class="hero-links">
             <a href="files/Mutlu-Full-CV-Feb-2026.pdf" class="btn btn-primary" target="_blank">
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
               Download CV
             </a>
             <a href="https://scholar.google.com/citations?user=VGr54BoAAAAJ&hl=en" class="btn btn-outline" target="_blank">
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg>
               Google Scholar
             </a>
             <a href="https://www.linkedin.com/in/bilge-mutlu-a2aab8286" class="btn btn-outline" target="_blank">
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
               LinkedIn
+            </a>
+            <a href="#" class="btn btn-outline" onclick="contactMe(event)">
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+              Contact
             </a>
           </div>
         </div>
@@ -627,20 +766,20 @@
       </p>
       <div class="research-grid">
 
-        <div class="research-card">
-          <img src="images/in-the-wild.jpg" alt="Embodied AI in the Wild">
+        <div class="research-card" onclick="togglePanel('panel-wild', this)">
+          <img src="images/in-the-wild.jpg" alt="Long-term, Real-World HRI">
           <div class="research-card-body">
-            <h3>Embodied AI in the Wild</h3>
+            <h3>Long-term, Real-World HRI</h3>
             <p>
-              Exploring how people interact with robots and AI in the physical world,
-              including long-term human-robot interaction in homes, privacy challenges
-              in complex domestic environments, and supporting learning and education
-              through social agents.
+              Building autonomous systems that can navigate complex social dynamics
+              in the physical world, including long-term human-robot interaction in homes,
+              privacy challenges in complex domestic environments, and supporting
+              learning and education through social agents.
             </p>
           </div>
         </div>
 
-        <div class="research-card">
+        <div class="research-card" onclick="togglePanel('panel-collab', this)">
           <img src="images/human-robot-collab.jpg" alt="Human-Robot Collaboration">
           <div class="research-card-body">
             <h3>Human-Robot Collaboration</h3>
@@ -653,28 +792,147 @@
           </div>
         </div>
 
-        <div class="research-card">
-          <img src="images/design-tools.jpg" alt="HRI Design Tools">
+        <!-- Row 1 panels -->
+        <div class="panel-detail" id="panel-wild">
+          <div class="panel-detail-inner">
+            <div>
+              <h4>About This Research</h4>
+              <p>
+                A central challenge in human-robot interaction is building autonomous systems that can
+                navigate the complex, unpredictable social dynamics of everyday life. Our work deploys
+                robots into homes, schools, and community settings to study how people form relationships
+                with social agents over weeks and months—not just minutes in a lab.
+              </p>
+              <p>
+                We investigate how robots can support children's learning as reading and educational
+                companions, how families negotiate privacy when a robot becomes part of the household,
+                and how long-term interaction reveals design opportunities that short-term studies miss.
+              </p>
+            </div>
+            <div>
+              <h4>Selected Papers</h4>
+              <ul class="paper-list">
+                <li>Wright, Vegesna, Michaelis, Mutlu, &amp; Sebo. "Robotic reading companions can mitigate oral reading anxiety in children." <span class="paper-venue"><a href="https://hri.cs.uchicago.edu/publications/Wright_2025_robotic_reading_companions.pdf" target="_blank">Science Robotics, 2025</a></span></li>
+                <li>Ho, Kargeti, Liu, &amp; Mutlu. "SET-PAiREd: Designing for parental involvement in learning with an AI-assisted educational robot." <span class="paper-venue"><a href="https://dl.acm.org/doi/full/10.1145/3706598.3713330" target="_blank">CHI 2025</a></span></li>
+                <li>Michaelis, Cagiltay, Ibtasar, &amp; Mutlu. "'Off Script': Design opportunities emerging from long-term social robot interactions in-the-wild." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3568162.3576978" target="_blank">HRI 2023</a></span></li>
+                <li>Lee, Cagiltay, &amp; Mutlu. "The unboxing experience: Exploration and design of initial interactions between children and social robots." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3491102.3501955" target="_blank">CHI 2022</a></span> <span class="paper-award-badge">🏅</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-detail" id="panel-collab">
+          <div class="panel-detail-inner">
+            <div>
+              <h4>About This Research</h4>
+              <p>
+                As robots move into workplaces alongside people, a key question is how to augment human
+                capabilities without displacing human expertise and judgment. Our work develops
+                shared-control systems and human-in-the-loop interfaces that let operators leverage
+                robotic precision while retaining autonomy over critical decisions.
+              </p>
+              <p>
+                We build natural-language-based interfaces and end-user programming tools that make
+                collaborative robotics accessible to non-experts—enabling workers to author, customize,
+                and oversee robot behaviors in real time.
+              </p>
+            </div>
+            <div>
+              <h4>Selected Papers</h4>
+              <ul class="paper-list">
+                <li>Hagenow, Senft, Radwin, Gleicher, Zinn, &amp; Mutlu. "A system for human-robot teaming through end-user programming and shared autonomy." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3610977.3634965" target="_blank">HRI 2024</a></span></li>
+                <li>Senft, Hagenow, Radwin, Zinn, Gleicher, &amp; Mutlu. "Situated live programming for human-robot collaboration." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3472749.3474773" target="_blank">UIST 2021</a></span></li>
+                <li>Senft, Hagenow, Welsh, Radwin, Zinn, Gleicher, &amp; Mutlu. "Task-level authoring for remote robot teleoperation." <span class="paper-venue"><a href="https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.707149/full" target="_blank">Frontiers in Robotics and AI, 2021</a></span></li>
+                <li>Rakita, Mutlu, Gleicher, &amp; Hiatt. "Shared control–based bimanual robot manipulation." <span class="paper-venue"><a href="https://www.science.org/doi/10.1126/scirobotics.aaw0955" target="_blank">Science Robotics, 2019</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2 cards -->
+        <div class="research-card" onclick="togglePanel('panel-tools', this)">
+          <img src="images/design-tools.jpg" alt="Robot Design &amp; Programming Tools">
           <div class="research-card-body">
-            <h3>HRI Design Tools</h3>
+            <h3>Robot Design &amp; Programming Tools</h3>
             <p>
               Building a suite of tools to support the unique and complex task of designing
-              robotics applications for human use, integrating large language models and
-              formal methods in collaboration with researchers in programming languages.
+              robotics applications for human use, integrating how designers and developers
+              work with formal methods for software analysis, verification, and synthesis,
+              multimodal and multiagent LLMs, and expert critics.
             </p>
           </div>
         </div>
 
-        <div class="research-card">
-          <img src="images/assistive.jpg" alt="Accessible Embodied AI">
+        <div class="research-card" onclick="togglePanel('panel-care', this)">
+          <img src="images/assistive.jpg" alt="Assistive &amp; Care Robotics">
           <div class="research-card-body">
-            <h3>Accessible Embodied AI</h3>
+            <h3>Assistive &amp; Care Robotics</h3>
             <p>
               Developing care robotics that empowers both caregivers and care recipients,
               research on human-AI and human-robot interaction for people with Down syndrome,
               and collaborative work supporting the participation of older adults and people
               who are blind or have low vision in the broader social and physical world.
             </p>
+          </div>
+        </div>
+
+        <!-- Row 2 panels -->
+        <div class="panel-detail" id="panel-tools">
+          <div class="panel-detail-inner">
+            <div>
+              <h4>About This Research</h4>
+              <p>
+                Designing robot behaviors for human environments is a uniquely complex task that
+                sits at the intersection of interaction design, software engineering, and AI. Our
+                work builds tools that bridge this gap—integrating the ways designers and developers
+                work with formal methods for software analysis, verification, and synthesis.
+              </p>
+              <p>
+                Recent efforts incorporate multimodal and multiagent LLMs as expert critics that can
+                evaluate, refine, and verify robot interaction designs. By combining human-centered
+                design processes with rigorous technical methods, we aim to make it possible to author
+                robot behaviors that are not only expressive and intuitive but also provably correct
+                and safe.
+              </p>
+            </div>
+            <div>
+              <h4>Selected Papers</h4>
+              <ul class="paper-list">
+                <li>Lee, Porfirio, Wang, Zhao, &amp; Mutlu. "VeriPlan: Integrating formal verification and LLMs into end-user planning." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3706598.3714113" target="_blank">CHI 2025</a></span></li>
+                <li>Schoen, Sullivan, Zhang, Rakita, &amp; Mutlu. "Lively: Enabling multimodal, lifelike, and extensible real-time robot motion." <span class="paper-venue"><a href="https://doi.org/10.1145/3568162.3576982" target="_blank">HRI 2023</a></span> <span class="paper-award-badge">🏆</span></li>
+                <li>Porfirio, Stegner, Cakmak, Sauppé, Albarghouthi, &amp; Mutlu. "Sketching robot programs on the fly." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3568162.3576991" target="_blank">HRI 2023</a></span></li>
+                <li>Porfirio, Sauppé, Albarghouthi, &amp; Mutlu. "Authoring and verifying human-robot interactions." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3242587.3242634" target="_blank">UIST 2018</a></span> <span class="paper-award-badge">🏆</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-detail" id="panel-care">
+          <div class="panel-detail-inner">
+            <div>
+              <h4>About This Research</h4>
+              <p>
+                Our assistive robotics research is grounded in the belief that technology should empower
+                people—not replace the human relationships at the center of care. We develop robots and
+                AI systems that support both caregivers and care recipients, designing with and for the
+                communities we aim to serve.
+              </p>
+              <p>
+                This includes research on human-AI and human-robot interaction for people with Down
+                syndrome, conversational telepresence robots for homebound older adults, participatory
+                design methods for aging populations, and robotic systems that support the social and
+                physical participation of people who are blind or have low vision.
+              </p>
+            </div>
+            <div>
+              <h4>Selected Papers</h4>
+              <ul class="paper-list">
+                <li>Hu, Kuribayashi, Wang, Kayukawa, Sato, Mutlu, Takagi, et al. "Robot-assisted group tours for blind people." <span class="paper-venue"><a href="https://arxiv.org/abs/2602.04458" target="_blank">CHI 2026</a></span></li>
+                <li>Hu, Stegner, Kotturi, Zhang, Peng, Huq, Zhao, Bigham, et al. "'This really lets us see the entire world': Designing a conversational telepresence robot for homebound older adults." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3643834.3660710" target="_blank">DIS 2024</a></span></li>
+                <li>Johnson, Sterling, &amp; Mutlu. "'It is easy using my apps': Understanding technology use and needs of adults with Down syndrome." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3613904.3642950" target="_blank">CHI 2024</a></span></li>
+                <li>Stegner, Senft, &amp; Mutlu. "Situated participatory design: A method for in situ design of robotic interaction with older adults." <span class="paper-venue"><a href="https://dl.acm.org/doi/10.1145/3544548.3580893" target="_blank">CHI 2023</a></span></li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -688,38 +946,34 @@
     <section id="teaching" class="fade-in">
       <div class="section-label">Teaching</div>
       <h2>Courses</h2>
-      <div class="teaching-list">
+      <div class="teaching-grid">
 
-        <div class="teaching-item">
+        <div class="teaching-card">
           <div class="teaching-code">CS 639</div>
-          <div>
-            <h3><a href="https://wisc-hci.github.io/cs639-s26/">Interaction Design Studio</a></h3>
-            <p class="teaching-meta">Undergraduate Course · Department of Computer Sciences · Spring 2026</p>
-          </div>
+          <h3><a href="https://wisc-hci.github.io/cs639-s26/">Interaction Design Studio</a></h3>
+          <p class="teaching-meta">Spring 2026</p>
+          <span class="teaching-level">Undergraduate</span>
         </div>
 
-        <div class="teaching-item">
+        <div class="teaching-card">
           <div class="teaching-code">CS 839</div>
-          <div>
-            <h3><a href="https://wisc-hci.github.io/cs839-s23/">Building Interactive Systems</a></h3>
-            <p class="teaching-meta">Graduate Course · Department of Computer Sciences · Spring 2023</p>
-          </div>
+          <h3><a href="https://wisc-hci.github.io/cs839-s23/">Building Interactive Systems</a></h3>
+          <p class="teaching-meta">Spring 2023</p>
+          <span class="teaching-level">Graduate</span>
         </div>
 
-        <div class="teaching-item">
+        <div class="teaching-card">
           <div class="teaching-code">CS/Psych/<wbr>EdPsych 770</div>
-          <div>
-            <h3><a href="https://cs770.github.io/Fall25/">HCI Research Methods</a></h3>
-            <p class="teaching-meta">Graduate Course · Department of Computer Sciences · Fall 2025</p>
-          </div>
+          <h3><a href="https://cs770.github.io/Fall25/">HCI Research Methods</a></h3>
+          <p class="teaching-meta">Fall 2025</p>
+          <span class="teaching-level">Graduate</span>
         </div>
 
-        <div class="teaching-item">
+        <div class="teaching-card">
           <div class="teaching-code">CS 571</div>
-          <div>
-            <h3><a href="https://wisc-hci-curriculum.github.io/cs639-f20/">Building User Interfaces</a></h3>
-            <p class="teaching-meta">Undergraduate Course · Department of Computer Sciences · Fall 2020</p>
-          </div>
+          <h3><a href="https://wisc-hci-curriculum.github.io/cs639-f20/">Building User Interfaces</a></h3>
+          <p class="teaching-meta">Fall 2020</p>
+          <span class="teaching-level">Undergraduate</span>
         </div>
 
       </div>
@@ -967,6 +1221,33 @@
         document.querySelector('.nav-links').classList.remove('open');
       });
     });
+
+    // Research panels (slide-down)
+    function togglePanel(panelId, card) {
+      const panel = document.getElementById(panelId);
+      const allPanels = document.querySelectorAll('.panel-detail');
+      const allCards = document.querySelectorAll('.research-card');
+      const wasOpen = panel.classList.contains('open');
+
+      allPanels.forEach(p => p.classList.remove('open'));
+      allCards.forEach(c => c.classList.remove('active'));
+
+      if (!wasOpen) {
+        panel.classList.add('open');
+        card.classList.add('active');
+        setTimeout(() => {
+          panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 100);
+      }
+    }
+
+    // Contact — email assembled at click time to prevent bot scraping
+    function contactMe(e) {
+      e.preventDefault();
+      var u = 'bilMDgeX';
+      var d = 'cYs.wiZsc.eXdu';
+      window.location.href = 'mai' + 'lto:' + u.replace(/[MDXYZ]/g, '') + '@' + d.replace(/[MDXYZ]/g, '');
+    }
 
     // Dark mode — detect system preference, allow manual toggle, remember choice
     function updateThemeIcons(isDark) {
